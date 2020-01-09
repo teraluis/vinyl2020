@@ -1,0 +1,268 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-y: scroll;
+}
+
+*, *:before, *:after {
+	@include box-sizing(border-box);
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section {
+	display: block
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: inherit;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+blockquote, q {
+	quotes: none
+}
+
+a:focus {
+	outline: none
+}
+
+a:hover, a:active {
+	outline: 0
+}
+
+a img {
+	border: 0
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+select {
+	max-width: 100%
+}
+
+em {
+	font-style: italic;
+}
+
+.hidden {
+	display: none !important;
+}
+
+* html {
+	font-size: 100% * ( $font-size / $browser-font-size );
+}
+
+body {
+	font-family: $body-font-family;
+	font-size: $font-size;
+	line-height: $base-line-height;
+	color: $body-font-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-wrap: break-word;
+    word-wrap: break-word;
+	background-color: $body-bg-color;
+}
+
+.mejs-container {
+    margin-bottom: 20px;
+}
+
+.figure__object_fit {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	img {
+		width: 100%;
+		.active-object-fit & {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&.custom-object-fit {
+		background-size: cover;
+		background-position: center center;
+		img {
+			opacity: 0 !important;
+		}
+	}
+}
+
+/**
+ * Grid > Main Classes.
+ */
+
+.container {
+	@include container-fixed();
+	max-width: 96%;
+	@media (min-width: 1200px) {
+		width: 1170px;
+	}
+	@media (max-width: 1199px) {
+		width: 100%;
+	}
+	@media(max-width: 767px){
+		max-width: calc( 100% - 40px );
+	}
+	&.la-container-full {
+		width: 100%;
+		max-width: 100%;
+		padding-left: 60px;
+		padding-right: 60px;
+		@media(max-width: 1600px){
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		@media(max-width: 767px){
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}
+
+.container-fluid {
+	@include container-fixed;
+}
+
+.row {
+	@include make-row;
+}
+
+@include make-grid-columns;
+
+@include make-grid(xs);
+
+@media (min-width: $screen-sm-min) {
+	@include make-grid(sm);
+}
+
+@media (min-width: $screen-md-min) {
+	@include make-grid(md);
+}
+
+@media (min-width: $screen-lg-min) {
+	@include make-grid(lg);
+}
+
+@media(min-width: 1600px){
+	.container {
+		max-width: calc(100% - 160px);
+	}
+}
+
+.grid-items{
+	&:not(.slick-slider){
+		@include display;
+		@include flex-flow(row wrap);
+		@include align-content(flex-start);
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.grid-item{
+		display: inline-block;
+		zoom: 1;
+		letter-spacing: normal;
+		word-spacing: normal;
+		vertical-align: top;
+		text-rendering: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+}
+
+$bkp_lists : (
+	('laptop'   , $screen-lg-min),
+	('tablet'   , $screen-md-min),
+	('mobile'   , $screen-sm-min),
+	('xmobile'  , $screen-mb-min)
+);
+
+@for $i from 1 through 10 {
+	.block-grid-#{$i}{
+		.grid-item{
+			width: percentage(1/$i);
+		}
+	}
+}
+
+@each $bkp in $bkp_lists {
+	@media (max-width: nth($bkp, 2)){
+		$screen_name : nth($bkp, 1);
+		@for $i from 1 through 10 {
+			.#{$screen_name}-block-grid-#{$i}{
+				.grid-item{
+					width: percentage(1/$i);
+				}
+			}
+		}
+	}
+}
+
+/**
+ * Language Switches.
+ */
+.polylang-switcher-shortcode {
+	li {
+		float: left;
+		margin-right: 5px;
+	}
+
+	&.flags-and-names li {
+		margin-right: 15px;
+	}
+
+	li:last-child {
+		margin-right: 0;
+	}
+}
+
+/**
+ * Selection Color.
+ */
+::selection {
+	color: $selection-font-color;
+	background: $selection-bg-color;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	color: $selection-font-color;
+	background: $selection-bg-color;
+	text-shadow: none;
+}
+
+.la-overlay-global {
+	position: fixed;
+	background: #232324;
+	z-index: 9;
+	visibility: hidden;
+	opacity: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	transition: all 250ms ease-out;
+}

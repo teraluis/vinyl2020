@@ -1,0 +1,208 @@
+.lastudio-scroll-navigation{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+  overflow: visible !important
+}
+.lastudio-scroll-navigation--position-left{
+  left: 0
+}
+.lastudio-scroll-navigation--position-left .lastudio-scroll-navigation__item-hint{
+  left: calc(100% + 10px)
+}
+.lastudio-scroll-navigation--position-right{
+  right: 0
+}
+.lastudio-scroll-navigation--position-right .lastudio-scroll-navigation__item-hint{
+  right: calc(100% + 10px)
+}
+.lastudio-scroll-navigation__inner{
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  overflow: visible !important
+}
+.lastudio-scroll-navigation__item{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: visible !important
+}
+.lastudio-scroll-navigation__item:hover .lastudio-scroll-navigation__item-hint{
+  opacity: 1;
+  pointer-events: auto
+}
+.lastudio-scroll-navigation__item.active .lastudio-scroll-navigation__item-hint{
+  opacity: 1;
+  pointer-events: auto
+}
+.lastudio-scroll-navigation__dot{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+.lastudio-scroll-navigation__item-hint{
+  position: absolute;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+.lastudio-scroll-navigation__icon{
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center
+}
+.lastudio-scroll-navigation__label{
+  white-space: nowrap
+}
+.lastudio-scroll-navigation--position-left{
+  margin-left: 20px
+}
+.lastudio-scroll-navigation--position-right{
+  margin-right: 20px
+}
+.lastudio-scroll-navigation__item{
+  margin: 10px 0
+}
+.lastudio-scroll-navigation__item .lastudio-scroll-navigation__dot{
+  background-color: #54595f
+}
+.lastudio-scroll-navigation__item:hover .lastudio-scroll-navigation__dot{
+  background-color: #61ce70
+}
+.lastudio-scroll-navigation__item.invert .lastudio-scroll-navigation__dot{
+  background-color: #fff
+}
+.lastudio-scroll-navigation__item.active .lastudio-scroll-navigation__dot{
+  background-color: #6ec1e4
+}
+.lastudio-scroll-navigation__dot{
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+.lastudio-scroll-navigation__dot i{
+  font-size: inherit
+}
+.lastudio-scroll-navigation__item-hint{
+  background-color: #6ec1e4;
+  padding: 0 10px;
+  border-radius: 4px
+}
+.lastudio-scroll-navigation__icon{
+  color: white;
+  font-size: 20px;
+  margin: 5px
+}
+.lastudio-scroll-navigation__label{
+  color: white;
+  font-size: 16px
+}
+.lastudio-scroll-navigation{
+  z-index: 1
+}
+.lastudio-scroll-navigation--position-left{
+  margin-left: 20px
+}
+.lastudio-scroll-navigation--position-right{
+  margin-right: 20px;
+  right: 60px
+}
+.lastudio-scroll-navigation__dot{
+  width: 40px;
+  height: 2px
+}
+.lastudio-scroll-navigation__item{
+  margin: 5px 0
+}
+.lastudio-scroll-navigation__item .lastudio-scroll-navigation__dot{
+  background-color: #54595f
+}
+.lastudio-scroll-navigation__item:hover .lastudio-scroll-navigation__dot{
+  background-color: #61ce70
+}
+.lastudio-scroll-navigation__item.invert .lastudio-scroll-navigation__dot{
+  background-color: #fff
+}
+.lastudio-scroll-navigation__item.active .lastudio-scroll-navigation__dot{
+  background-color: #6ec1e4
+}
+.lastudio-scroll-navigation--position-right, .lastudio-scroll-navigation__item-hint{
+  left: calc(100% + 10px);
+  right: auto;
+  text-align: right;
+  width: 50px
+}
+.lastudio-scroll-navigation__dot{
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+.lastudio-scroll-navigation__dot i{
+  font-size: inherit
+}
+.lastudio-scroll-navigation__item-hint{
+  background-color: #6ec1e4;
+  padding: 0 10px;
+  opacity: 0.2;
+  position: static
+}
+.lastudio-scroll-navigation__icon{
+  color: white;
+  font-size: 20px;
+  margin: 5px
+}
+.lastudio-scroll-navigation__label{
+  color: white;
+  font-size: 16px
+}
+.lastudio-scroll-navigation__label:hover{
+  cursor: pointer
+}

@@ -1,0 +1,86 @@
+.circle-progress{
+  border-radius: 50%;
+  transform: rotate(-90deg)
+}
+.circle-progress-wrap{
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative
+}
+.circle-progress-bar{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto
+}
+.circle-progress-bar .position-in-circle{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%
+}
+.circle-progress-bar .position-in-circle .circle-counter{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+.circle-progress__meter, .circle-progress__value{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.28, 0.77, 0.39, 0.95);
+  fill: none;
+  stroke-linecap: butt
+}
+.circle-counter .circle-val{
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+.circle-counter .circle-val{
+  color: #6ec1e4;
+  font-size: 23px
+}
+.circle-counter .circle-val .circle-counter__prefix{
+  line-height: 1
+}
+.circle-counter .circle-val .circle-counter__suffix{
+  line-height: 1
+}
+.circle-counter .circle-counter__title{
+  padding-top: 10px
+}

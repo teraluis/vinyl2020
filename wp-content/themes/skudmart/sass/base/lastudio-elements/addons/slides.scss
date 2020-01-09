@@ -1,0 +1,376 @@
+@import "../../../mixins";
+@import "../../../config";
+
+/* Slides Widget */
+@-webkit-keyframes ken-burns-in {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+
+@keyframes ken-burns-in {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+
+@-webkit-keyframes ken-burns-out {
+  0% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes ken-burns-out {
+  0% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.elementor-slides .slick-slide-bg {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 10s;
+  -o-transition-duration: 10s;
+  transition-duration: 10s;
+}
+
+.elementor-slides .slick-slide-bg.elementor-ken-out {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.elementor-slides .slick-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+.elementor-slides .slick-slide > div {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  width: 100%;
+}
+
+.elementor-slides .slick-slide:focus {
+  outline: 0;
+}
+
+.elementor-slides .slick-slide.slick-active .slick-slide-bg {
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+}
+
+.elementor-slides .slick-slide.slick-active .slick-slide-bg.elementor-ken-in {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-animation-name: ken-burns-in;
+  animation-name: ken-burns-in;
+}
+
+.elementor-slides .slick-slide.slick-active .slick-slide-bg.elementor-ken-out {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-animation-name: ken-burns-out;
+  animation-name: ken-burns-out;
+}
+
+.elementor-slides .slick-slide-inner {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 50px;
+}
+
+.elementor-slides .slick-slide-inner,
+.elementor-slides .slick-slide-inner:hover {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.elementor-slides .slick-slide-inner .elementor-background-overlay {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.elementor-slides .slick-slide-inner .elementor-slide-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.elementor-slides .slick-slide-inner .elementor-slide-heading {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.elementor-slides .slick-slide-inner .elementor-slide-description {
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.elementor-slides .slick-slide-inner .elementor-slide-heading:not(:last-child){
+  margin-bottom: 20px;
+}
+.elementor-slides .slick-slide-inner .elementor-slide-description:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.elementor-slides .slick-slide-inner .elementor-slide-button {
+  border: solid 2px;
+}
+
+.elementor-slides .slick-slide-inner .elementor-slide-button,
+.elementor-slides .slick-slide-inner .elementor-slide-button:hover {
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+.elementor--v-position-top .slick-slide-inner {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.elementor--v-position-bottom .slick-slide-inner {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.elementor--v-position-middle .slick-slide-inner {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.elementor--h-position-left .slick-slide-inner {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.elementor--h-position-right .slick-slide-inner {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.elementor--h-position-center .slick-slide-inner {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.elementor-slides-wrapper div:not(.slick-slide) > .slick-slide-inner {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .elementor-slides .slick-slide-inner {
+    padding: 30px;
+  }
+  .elementor-slides .slick-slide-inner .elementor-slide-heading {
+    font-size: 23px;
+    line-height: 1;
+    margin-bottom: 15px;
+  }
+  .elementor-slides .slick-slide-inner .elementor-slide-description {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+}
+
+.slick-slide-bg a {
+  display: none;
+}
+
+.elementor-slick-slider{
+  .elementor-slides{
+    .slick-arrow{
+      outline: none;
+      width: auto;
+      &:before{
+        font-family: 'LaStudioIcons';
+        display: inline-block;
+        font-size: 18px;
+      }
+    }
+    .slick-prev{
+      &:before{
+        content: "\ea11";
+      }
+    }
+    .slick-next{
+      &:before{
+        content: "\ea12";
+      }
+    }
+  }
+}
+
+.elementor-slide-subheading{
+  margin-bottom: 5px;
+}
+.elementor-slide-subdescription2 a:not(:last-child) {
+  margin-right: 1.5em;
+}
+.m3-collection-slides{
+  .elementor-slides{
+    .slick-active{
+      .slick-slide-bg{
+        animation-name: fadeIn;
+        animation-duration: 1s;
+      }
+    }
+    .slick-slide{
+      .slick-slide-bg{
+        min-width: 48%;
+        max-width: 48%;
+        position: relative;
+        a{
+          display: block;
+          opacity: 0;
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .slick-slide-inner{
+        position: static;
+        width: 52%;
+        color: #707070;
+        .elementor-slide-button{
+          padding: 1.5em 3em;
+        }
+      }
+    }
+    .slick-arrow{
+      &:before{
+        padding: 1em;
+        border-radius: 50%;
+        border: 1px solid #cecece;
+      }
+      &:hover{
+        &:before{
+          color: #fff !important;
+          border-color: #1d1d1d;
+          background-color: #1d1d1d;
+        }
+      }
+    }
+    .slick-prev{
+      left: -10%;
+      right: auto;
+    }
+    .slick-next{
+      right: -10%;
+      left: auto;
+    }
+  }
+  .fadeInUp{
+    animation-name: lafadeInUp;
+  }
+}
+
+
+@media(max-width: 1400px){
+  .m3-collection-slides .elementor-slides .slick-arrow:before {
+    padding: .8em;
+    font-size: 16px;
+  }
+  .m3-collection-slides .elementor-slides .slick-prev {
+    left: -50px;
+  }
+  .m3-collection-slides .elementor-slides .slick-next {
+    right: -50px;
+  }
+}
+
+@media(max-width: 1200px){
+  .m3-collection-slides .elementor-slides .slick-prev {
+    left: -20px;
+  }
+  .m3-collection-slides .elementor-slides .slick-next {
+    right: -20px;
+  }
+}
+
+@media(max-width: $screen-mb-max){
+  .elementor-slick-slider .elementor-slides .slick-arrow{
+    margin: 10px;
+    top: 20%;
+  }
+  .m3-collection-slides .elementor-slides .slick-slide .slick-slide-bg {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 40%;
+    height: 40%;
+  }
+
+  .m3-collection-slides .elementor-slides .slick-slide .slick-slide-inner {
+    width: 100%;
+  }
+
+  .m3-collection-slides .elementor-slides .slick-slide {
+    display: block;
+  }
+}

@@ -1,0 +1,695 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Gateway Atos\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-12 14:49+0200\n"
+"PO-Revision-Date: 2015-11-24 15:04+0100\n"
+"Last-Translator: ABSOLUTE Web <woocommerce@absoluteweb.net>\n"
+"Language-Team: ABSOLUTE Web <nicolas@absoluteweb.net>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../am/admin/class-wc-api-manager-menu.php:58
+#: ../am/admin/class-wc-api-manager-menu.php:62
+msgid "Save Changes"
+msgstr "Enregistrer les changements"
+
+#: ../am/admin/class-wc-api-manager-menu.php:77
+msgid "API License Activation"
+msgstr "Activation de la licence"
+
+#: ../am/admin/class-wc-api-manager-menu.php:78
+msgid "API License Key Status"
+msgstr "Statut de la clé de licence"
+
+#: ../am/admin/class-wc-api-manager-menu.php:79
+msgid "API License Key"
+msgstr "Clé de licence"
+
+#: ../am/admin/class-wc-api-manager-menu.php:80
+msgid "API License email"
+msgstr "Email de licence"
+
+#: ../am/admin/class-wc-api-manager-menu.php:84
+msgid "API License Deactivation"
+msgstr "Désactivation de la licence"
+
+#: ../am/admin/class-wc-api-manager-menu.php:85
+msgid "Deactivate API License Key"
+msgstr "Désactiver la clé de licence"
+
+#: ../am/admin/class-wc-api-manager-menu.php:165
+msgid "Plugin activated. "
+msgstr "Extension activée."
+
+#: ../am/admin/class-wc-api-manager-menu.php:171
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr ""
+"La connexion au serveur de l'API de la clé de licence a échouée. Veuillez "
+"essayer plus tard."
+
+#: ../am/admin/class-wc-api-manager-menu.php:258
+msgid ""
+"The license could not be deactivated. Use the License Deactivation tab to "
+"manually deactivate the license before activating a new license."
+msgstr ""
+"La licence ne peut pas être désactivée. Utilisez l'onglet Désactivation de "
+"la licence pour désactiver manuellement la licence avant d'activer une "
+"nouvelle licence."
+
+#: ../am/admin/class-wc-api-manager-menu.php:297
+msgid "Plugin license deactivated. "
+msgstr "Licence désactivée."
+
+#: ../am/admin/class-wc-api-manager-menu.php:366
+msgid "Deactivates an API License Key so it can be used on another blog."
+msgstr ""
+"Désactive une clé de licence pour qu'elle puisse être utilisée sur un autre "
+"site."
+
+#: ../am/classes/class-wc-plugin-update.php:370
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"La clé de licence pour %s a expiré. Vous pouvez réactiver ou acquérir une "
+"clé de licence depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</"
+"a> de votre compte."
+
+#: ../am/classes/class-wc-plugin-update.php:385
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s est en attente. Vous pouvez réactiver l'abonnement "
+"depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte."
+
+#: ../am/classes/class-wc-plugin-update.php:400
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"L'abonnement pour %s a été annulé. Vous pouvez renouveller l'abonnement "
+"depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte. Une nouvelle clé de licence vous sera envoyée par email dès que "
+"votre commande sera complétée."
+
+#: ../am/classes/class-wc-plugin-update.php:415
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s a expiré. Vous pouvez réactiver l'abonnement depuis le "
+"<a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre compte."
+
+#: ../am/classes/class-wc-plugin-update.php:430
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"L'abonnement pour %s a été suspendu. Vous pouvez réactiver l'abonnement "
+"depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte."
+
+#: ../am/classes/class-wc-plugin-update.php:445
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"L'abonnement pour %s est toujours en traitement. Vous pouvez vérifier le "
+"statut de l'abonnement depuis le <a href=\"%s\" target=\"_blank\">tableau de "
+"bord</a> de votre compte."
+
+#: ../am/classes/class-wc-plugin-update.php:460
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s a été placé dans la corbeille et sera bientôt supprimé. "
+"Vous pouvez acheter un nouvel abonnement depuis le <a href=\"%s\" target="
+"\"_blank\">tableau de bord</a> de votre compte."
+
+#: ../am/classes/class-wc-plugin-update.php:475
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s ne peut être trouvé. Vous pouvez acheter un abonnement "
+"depuis le <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte."
+
+#: ../am/classes/class-wc-plugin-update.php:490
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+"La clé de licence pour %s ne peut être trouvée. Peut être avez-vous oublié "
+"de la saisir dans la page Réglages lors de l'installation de %s, ou bien la "
+"clé a été désactivée dans votre compte. Vous pouvez réactiver ou acquérir "
+"une clé de licence depuis le <a href=\"%s\" target=\"_blank\">tableau de "
+"bord</a> de votre compte client."
+
+#: ../am/classes/class-wc-plugin-update.php:505
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"La permission de téléchargement pour %s a été révoquée, certainement à cause "
+"de l'expiration de la clé de licence ou de l'abonnement. Vous pouvez "
+"réactiver ou acheter une clé de licence depuis le <a href=\"%s\" target="
+"\"_blank\">tableau de bord</a> de votre compte."
+
+#: ../am/classes/class-wc-plugin-update.php:520
+#, php-format
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"%s n'a pas été activé. Allez sur la page Réglages et entrez la clé de "
+"licence et l'email de licence pour activer %s."
+
+#: ../am/classes/class-wc-plugin-update.php:535
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Vous avez changé l'abonnement pour %s, aussi devez vous saisir votre "
+"nouvelle clé de licence API dans la page Réglages. La clé de licence doit "
+"être arrivée dans vos courriers entrants, autrement vous pouvez l'obtenir en "
+"vous identifiant dans le <a href=\"%s\" target=\"_blank\">tableau de bord</"
+"a> de votre compte."
+
+#: ../woocommerce-gateway-monetico.php:175
+msgid "License Activation"
+msgstr "Activation licence"
+
+#: ../woocommerce-gateway-monetico.php:176
+msgid "License Deactivation"
+msgstr "Désactivation licence"
+
+#: ../woocommerce-gateway-monetico.php:386
+#, php-format
+msgid ""
+"The Monetico Gateway API License Key has not been activated, so the plugin "
+"is inactive! %sClick here%s to activate the license key and the plugin."
+msgstr ""
+"La clé de licence Passerelle Monetico n'a pas été activée, de ce fait "
+"l'extension est inactive ! %sCliquez ici%s pour activer la clé de licence et "
+"l'extension."
+
+#: ../woocommerce-gateway-monetico.php:405
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+"<b>Attention !</b> Vous bloquez les requêtes externes ce qui signifie que "
+"vous ne pourrez pas obtenir les mises à jour %s. Veuillez ajouter %s à %s."
+
+#: ../woocommerce-gateway-monetico.php:432
+#, php-format
+msgid ""
+"Sorry! To use WooCommerce extension Gateway %s, you must install and "
+"activate the WooCommerce extension."
+msgstr ""
+"Désolé ! Pour utiliser l'extension WooCommerce de passerelle %s, vous devez "
+"installer et activer l'extension WooCommerce."
+
+#: ../woocommerce-gateway-monetico.php:433
+msgid "Extension Payment Gateway Monetico"
+msgstr "Extension Passerelle de Paiement Monetico"
+
+#: ../woocommerce-gateway-monetico.php:466
+msgid "Proceed to Credit Card"
+msgstr "Pagar con tarjeta de crédito"
+
+#: ../woocommerce-gateway-monetico.php:499
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: ../woocommerce-gateway-monetico.php:501
+msgid "Check to enable the payment Monetico."
+msgstr "Cocher pour activer le paiement Monetico."
+
+#: ../woocommerce-gateway-monetico.php:505
+msgid "Title"
+msgstr "Titre"
+
+#: ../woocommerce-gateway-monetico.php:507
+msgid "Title displayed when selecting the method of payment."
+msgstr "Titre affiché lors du choix du mode de paiement."
+
+#: ../woocommerce-gateway-monetico.php:508
+msgid "Credit Card"
+msgstr "Carte Bancaire"
+
+#: ../woocommerce-gateway-monetico.php:513
+msgid "Message client"
+msgstr "Message au client"
+
+#: ../woocommerce-gateway-monetico.php:515
+msgid "Inform the customer of payment by credit card."
+msgstr "Informez le client du mode de paiement par carte bancaire."
+
+#: ../woocommerce-gateway-monetico.php:516
+msgid ""
+"By choosing this method of payment you can make your payment on the secure "
+"server of our bank."
+msgstr ""
+"En choisissant ce mode de paiement vous pourrez effectuer votre règlement "
+"sur le serveur sécurisé de notre banque."
+
+#: ../woocommerce-gateway-monetico.php:520
+msgid "Icon payment"
+msgstr "Icône de paiement"
+
+#: ../woocommerce-gateway-monetico.php:522
+msgid "Url of the image displayed when selecting the method of payment."
+msgstr "Url de l'image affichée lors du choix du mode de paiement."
+
+#: ../woocommerce-gateway-monetico.php:528
+msgid "Mode"
+msgstr "Mode"
+
+#: ../woocommerce-gateway-monetico.php:530
+msgid ""
+"Select the mode to use Monetico. You must perform three tests before "
+"requesting passage into production to Monetico."
+msgstr ""
+"Sélectionnez le mode d'utilisation de Monetico. Vous devez effectuer trois "
+"paiements de test avant de demander le passage en production auprès de "
+"Monetico."
+
+#: ../woocommerce-gateway-monetico.php:532
+msgid "Test"
+msgstr "Test"
+
+#: ../woocommerce-gateway-monetico.php:533
+msgid "Production"
+msgstr "Production"
+
+#: ../woocommerce-gateway-monetico.php:540
+msgid "Key"
+msgstr "Clé"
+
+#: ../woocommerce-gateway-monetico.php:542
+msgid "Secure key."
+msgstr "Clé sécurisée."
+
+#: ../woocommerce-gateway-monetico.php:547
+msgid "TPE"
+msgstr "TPE"
+
+#: ../woocommerce-gateway-monetico.php:549
+msgid "Number Electronic Payment Terminal."
+msgstr "Numéro du Terminal de Paiement Électronique."
+
+#: ../woocommerce-gateway-monetico.php:555
+msgid "Company code"
+msgstr "Code société"
+
+#: ../woocommerce-gateway-monetico.php:562
+msgid "Currency"
+msgstr "Devise"
+
+#: ../woocommerce-gateway-monetico.php:564
+msgid "ISO 4217 compliant."
+msgstr "Compatible ISO 4217."
+
+#: ../woocommerce-gateway-monetico.php:570
+msgid "Language"
+msgstr "Langue"
+
+#: ../woocommerce-gateway-monetico.php:572
+msgid "Language of the company: FR -> France."
+msgstr "Langue de la société : FR -> France."
+
+#: ../woocommerce-gateway-monetico.php:578
+msgid "Button"
+msgstr "Bouton"
+
+#: ../woocommerce-gateway-monetico.php:580
+msgid "Button text to access the server from the bank."
+msgstr "Texte du bouton pour accéder au serveur de la banque."
+
+#: ../woocommerce-gateway-monetico.php:581
+msgid "Secure connection to the server of the bank"
+msgstr "Connexion sécurisée au serveur de la banque"
+
+#: ../woocommerce-gateway-monetico.php:585
+msgid "Redirection"
+msgstr "Redirection"
+
+#: ../woocommerce-gateway-monetico.php:588
+msgid "Check to enable the automatic redirection to the bank server."
+msgstr ""
+"Cocher pour activer une redirection automatique vers le serveur de la banque."
+
+#: ../woocommerce-gateway-monetico.php:590
+msgid "Automatically disabled when debug mode is enabled."
+msgstr "Automatiquement désactivée lorsque le mode debug est actif."
+
+#: ../woocommerce-gateway-monetico.php:594
+msgid "Redirection message"
+msgstr "Message de redirection"
+
+#: ../woocommerce-gateway-monetico.php:597
+msgid "Thank you for your order. We redirect you to the server of our bank."
+msgstr ""
+"Merci pour votre commande. Nous vous redirigeons vers le serveur de notre "
+"banque."
+
+#: ../woocommerce-gateway-monetico.php:598
+msgid "Leave blank to not show message in lightbox."
+msgstr "Laisser vide pour ne pas afficher de message en lightbox."
+
+#: ../woocommerce-gateway-monetico.php:603
+msgid "Logfile"
+msgstr "Fichier de logue"
+
+#: ../woocommerce-gateway-monetico.php:605
+msgid ""
+"Leave blank to not register log. The destination folder must be writable. If "
+"the file does not exist it will be created."
+msgstr ""
+"Laisser vide pour ne pas enregister de log. Le dossier de destination doit "
+"être accessible en écriture. Si le fichier n'existe pas il sera créé."
+
+#: ../woocommerce-gateway-monetico.php:611
+msgid "Debug"
+msgstr "Debug"
+
+#: ../woocommerce-gateway-monetico.php:613
+msgid "Show debugging information."
+msgstr "Afficher les informations de debug"
+
+#: ../woocommerce-gateway-monetico.php:614
+msgid "Do not activate production."
+msgstr "Ne pas activer en production."
+
+#: ../woocommerce-gateway-monetico.php:625
+msgid "Monetico payment"
+msgstr "Paiement Monetico"
+
+#: ../woocommerce-gateway-monetico.php:626
+#, php-format
+msgid ""
+"Authorizes payments Monetico. This requires the signing of a sales contract "
+"with a bank distance compatible with the payment solution %sMonetico%s."
+msgstr ""
+"Monetico autoriza pagos. Esto requiere la firma de un contrato de venta a "
+"distancia con un banco compatible con solución de pago %sMonetico%s."
+
+#: ../woocommerce-gateway-monetico.php:627
+#, php-format
+msgid ""
+"See our %sinstructions%s carefully to set up your payment solution Monetico."
+msgstr ""
+"Consultez nos %sinstructions%s avec attention pour paramétrer votre solution "
+"de paiement Monetico."
+
+#: ../woocommerce-gateway-monetico.php:646
+msgid "Information about your installation:"
+msgstr "Informations sur votre installation : "
+
+#: ../woocommerce-gateway-monetico.php:647
+msgid "Wordpress root"
+msgstr "Racine WordPress"
+
+#: ../woocommerce-gateway-monetico.php:648
+msgid "Hosting root"
+msgstr "Racine hébergement"
+
+#: ../woocommerce-gateway-monetico.php:649
+msgid "CGI2 URL"
+msgstr "URL CGI2"
+
+#: ../woocommerce-gateway-monetico.php:800
+msgid "Debug mode active"
+msgstr "Mode débug actif"
+
+#: ../woocommerce-gateway-monetico.php:832
+msgid ""
+"Thank you for your order, please click on the button below to make payment "
+"to our bank."
+msgstr ""
+"Merci pour votre commande, veuillez cliquer sur le bouton ci-dessous pour "
+"réaliser le paiement auprès de notre banque."
+
+#: ../woocommerce-gateway-monetico.php:900
+msgid "The customer's bank requests additional information."
+msgstr "La banque du client demande des informations complémentaires."
+
+#: ../woocommerce-gateway-monetico.php:902
+msgid "The customer's bank refuses to grant permission."
+msgstr "La banque du client refuse d’accorder l’autorisation."
+
+#: ../woocommerce-gateway-monetico.php:903
+msgid ""
+"The payment request was blocked by the filter settings that the merchant has "
+"implemented in its Fraud Prevention Module."
+msgstr ""
+"La demande de paiement a été bloquée par le paramétrage de filtrage que le "
+"commerçant a mis en place dans son Module Prévention Fraude."
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "IP address"
+msgstr "Adresse IP"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Card number"
+msgstr "Numéro de carte"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Card BIN"
+msgstr "BIN de carte"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Country card"
+msgstr "Pays de la carte"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Country IP"
+msgstr "Pays de l’IP"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Consistency country / card countries IP"
+msgstr "Cohérence pays de la carte / pays de l’IP"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Disposable email"
+msgstr "Email jetable"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Limitation amount for a CB over time"
+msgstr "Limitation en montant pour une CB sur une période donnée"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Limitation of number of transactions for a CB over time"
+msgstr ""
+"Limitation en nombre de transactions pour une CB sur une période donnée"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Limitation of number of transactions over a period alias"
+msgstr "Limitation en nombre de transactions par alias sur une période donnée"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Limitation on amount per alias over time"
+msgstr "Limitation en montant par alias sur une période donnée"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Limitation amount by IP over time"
+msgstr "Limitation en montant par IP sur une période donnée"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Limitation of number of transactions by IP over time"
+msgstr "Limitation en nombre de transactions par IP sur une période donnée"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Testers cards"
+msgstr "Testeurs de cartes"
+
+#: ../woocommerce-gateway-monetico.php:904
+msgid "Limitation on number of aliases by CB"
+msgstr "Limitation en nombre d’alias par CB"
+
+#: ../woocommerce-gateway-monetico.php:913
+msgid "Cause of filtering:"
+msgstr "Raison du filtrage :"
+
+#: ../woocommerce-gateway-monetico.php:916
+msgid "3D Secure authentication negatively received from the holder's bank."
+msgstr "Authentification 3DSecure négative reçue de la banque du porteur."
+
+#: ../woocommerce-gateway-monetico.php:917
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+#: ../woocommerce-gateway-monetico.php:921
+msgid "Credit Card Payment: FAIL<br/>Error:"
+msgstr "Paiement carte bancaire : ECHEC<br/>Erreur :"
+
+#: ../woocommerce-gateway-monetico.php:927
+#: ../woocommerce-gateway-monetico.php:1162
+#, php-format
+msgid ""
+"Failure of payment by credit card for your order, <a href=\"%s\">click here</"
+"a> to retry payment."
+msgstr ""
+"Échec du règlement par carte bancaire de votre commande, <a href=\"%s"
+"\">cliquez ici</a> pour effectuer une nouvelle tentative de paiement."
+
+#: ../woocommerce-gateway-monetico.php:936
+msgid "The transaction was not made according to the protocol 3DSecure."
+msgstr "La transaction ne s'est pas faite selon le protocole 3DSecure."
+
+#: ../woocommerce-gateway-monetico.php:937
+#: ../woocommerce-gateway-monetico.php:939
+#: ../woocommerce-gateway-monetico.php:940
+msgid ""
+"The transaction was made according to 3DS protocol and the risk level is"
+msgstr ""
+"La transaction s'est faite selon le protocole 3DS et le niveau de risque est"
+
+#: ../woocommerce-gateway-monetico.php:937
+msgid "low."
+msgstr "faible."
+
+#: ../woocommerce-gateway-monetico.php:938
+msgid ""
+"The transaction may not be done according to the protocol 3DSecure, the "
+"holder has however been authenticated through 3DSecure."
+msgstr ""
+"La transaction ne peut pas se faire selon le protocole 3DSecure, le porteur "
+"a cependant été authentifié par le biais de 3DSecure."
+
+#: ../woocommerce-gateway-monetico.php:939
+msgid "high."
+msgstr "élevé."
+
+#: ../woocommerce-gateway-monetico.php:940
+msgid "very high."
+msgstr "très élevé."
+
+#: ../woocommerce-gateway-monetico.php:944
+#: ../woocommerce-gateway-monetico.php:1116
+msgid "Credit card payment confirmed."
+msgstr "Paiement par carte bancaire confirmé."
+
+#: ../woocommerce-gateway-monetico.php:973
+msgid "Payment problem, HMAC does not match"
+msgstr "Problème de paiement, le HMAC ne correspond pas"
+
+#: ../woocommerce-gateway-monetico.php:1100
+msgid "Error:"
+msgstr "Erreur :"
+
+#: ../woocommerce-gateway-monetico.php:1103
+#, php-format
+msgid "Refunded %s - Autorisation ID: %s"
+msgstr "%s remboursés - Autorisation : %s"
+
+#: ../woocommerce-gateway-monetico.php:1126
+msgid "Payment error! Your order is not confirmed."
+msgstr "Erreur de paiement ! Votre commande n'est pas validée."
+
+#: ../woocommerce-gateway-monetico.php:1150
+#, php-format
+msgid "Your credit card payment of %s has been finalized with our bank"
+msgstr ""
+"Votre règlement par carte bancaire de %s a bien été finalisé auprès de notre "
+"banque"
+
+#: ../woocommerce-gateway-monetico.php:1152
+#, php-format
+msgid ", <a href=\"%s\">click here</a> to view your order."
+msgstr ", <a href=\"%s\">cliquez ici</a> pour consulter votre commande."
+
+#: ../woocommerce-gateway-monetico.php:1181
+msgid "Settings"
+msgstr "Réglages"
+
+#~ msgid "Payment confirmed."
+#~ msgstr "Paiement confirmé."
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "Version payment module."
+#~ msgstr "Version du module de paiement."
+
+#~ msgid "Bank server"
+#~ msgstr "Serveur de la banque"
+
+#~ msgid ""
+#~ "URL connection to the bank. For example https://ssl.paiement.cic banques."
+#~ "fr/test/ in test and https://ssl.paiement.cic-banques.fr/ in production."
+#~ msgstr ""
+#~ "URL de connexion à la banque. Par exemple https://ssl.paiement.cic-"
+#~ "banques.fr/test/ en phase de test et https://ssl.paiement.cic-banques.fr/ "
+#~ "en production."
+
+#~ msgid "File Classes"
+#~ msgstr "Fichier des Classes"
+
+#~ msgid "Access CMCIC_Tpe.inc.php file supplied in the kit from the bank."
+#~ msgstr "Accès au fichier CMCIC_Tpe.inc.php fourni dans le kit de la banque."
+
+#~ msgid "CM-CIC payment"
+#~ msgstr "Paiement CM-CIC"
+
+#, fuzzy
+#~ msgid "Voir le dictionnaire des donn&eacute;es."
+#~ msgstr "voir le dictionnaire des données Atos."
+
+#, fuzzy
+#~ msgid "Paiement Atos"
+#~ msgstr "Icône de paiement"
+
+#~ msgid "Enable Atos Payment"
+#~ msgstr "Activer le paiement Atos"
+
+#~ msgid "This controls the title which the user sees during checkout."
+#~ msgstr "Texte que le client voit lors du choix du mode de paiement."
+
+#~ msgid "Customer Message"
+#~ msgstr "Message Client"
+
+#, fuzzy
+#~ msgid ""
+#~ "Leave empty to stop saving log see dictionnaire des donn&eacute;es Atos."
+#~ msgstr "Laisser vide pour arrêter la sauvegarde des logs."
+
+#~ msgid "Site root"
+#~ msgstr "Racine du site"
+
+#~ msgid "Awaiting Atos payment"
+#~ msgstr "Attente du paiement CB"

@@ -1,0 +1,827 @@
+# Copyright (C) 2019 Jilt
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Jilt for WooCommerce 1.6.4\n"
+"Report-Msgid-Bugs-To: https://jilt.com/contact/\n"
+"POT-Creation-Date: 2019-04-26 15:21:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: class-wc-jilt.php:229
+msgid ""
+"Jilt works best with the random_bytes() PHP function, which is not "
+"available on your site. Please ask your hosting provider to add support for "
+"random_bytes()."
+msgstr ""
+
+#: class-wc-jilt.php:238
+msgid ""
+"Your site is currently not secured with SSL/TLS. Please secure your site "
+"with a valid TLS certificate in order to maintain a secure connection with "
+"Jilt."
+msgstr ""
+
+#: class-wc-jilt.php:250
+msgid ""
+"Hey there! It looks like this site is running in a local environment. Jilt "
+"requires two-way communication with your site and may not connect or "
+"operate as expected."
+msgstr ""
+
+#: class-wc-jilt.php:264
+#. translators: Placeholders: %1$s - <a> tag %2$s - </a> tag
+msgid ""
+"Uh oh! We've detected a billing issue with your Jilt account, which will "
+"cause an interruption in service if not resolved. Please %1$sclick here to "
+"update your billing information%2$s."
+msgstr ""
+
+#: class-wc-jilt.php:283
+#. translators: Placeholders: %1$s - connection error reason
+msgid ""
+"Heads up! Jilt for WooCommerce is not able to communicate with the "
+"WooCommerce REST API: %1$s"
+msgstr ""
+
+#: class-wc-jilt.php:306
+msgid ""
+"Heads up! There's a faster and more secure way to connect your shop to "
+"Jilt. Click the Reconnect button below to upgrade now."
+msgstr ""
+
+#: class-wc-jilt.php:310
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"There's a faster and more secure way to connect your shop to Jilt. "
+"%1$sReconnect your shop%2$s now to upgrade, it only takes 30 seconds :)"
+msgstr ""
+
+#: class-wc-jilt.php:328
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Thanks for installing Jilt! To get started, %1$sconnect your shop to "
+"Jilt%2$s :)"
+msgstr ""
+
+#: class-wc-jilt.php:330
+msgid ""
+"Thanks for installing Jilt! To get started, connect your shop to Jilt below "
+":)"
+msgstr ""
+
+#: class-wc-jilt.php:367 includes/admin/class-wc-jilt-integration-admin.php:912
+msgid "Connect to Jilt"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Jilt for WooCommerce"
+msgstr ""
+
+#: class-wc-jilt.php:585
+msgid "You have recovered your first order!"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:70
+msgid "Jilt Abandoned Cart Recovery"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:75
+msgid "Plugin Version"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:76
+msgid "The version of the Jilt plugin installed on your site."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:88
+msgid "Jilt API Version"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:89
+msgid "The version of the Jilt REST API supported by this plugin."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:93
+msgid "Jilt API Authentication Method"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:94
+msgid "Displays the authentication method used to connect to the Jilt API."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:95
+msgid "Secret key"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:95
+msgid "OAuth"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:98
+msgid "Jilt API Connected"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:99
+msgid ""
+"Indicates whether the plugin has been successfully configured and connected "
+"to the Jilt API."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:106
+#: includes/admin/class-wc-jilt-admin-status.php:124
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Please ensure the plugin is properly %1$sconfigured%2$s with your Jilt "
+"secret key."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:109
+#: includes/admin/class-wc-jilt-admin-status.php:127
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "Please ensure the plugin is %1$sconnected%2$s to Jilt."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:116
+msgid "Linked to Jilt"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:117
+msgid ""
+"Indicates whether the plugin has successfully linked your shop to your Jilt "
+"account."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:134
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:193
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:135
+msgid "Indicates whether the plugin is enabled and sending Order data to Jilt."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:142
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"It looks like this site has moved or is a duplicate site. For more "
+"information please %1$sget in touch%2$s"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:155
+msgid "WooCommerce API"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:156
+msgid ""
+"Indicates whether Jilt for WooCommerce is able to connect to and retrieve "
+"data from this store over the WooCommerce API."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:190
+msgid "Clear Jilt connection data"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:191
+msgid "Clear"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:192
+msgid ""
+"This tool will clear all Jilt connection data from the database, including "
+"OAuth client credentials."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:197
+msgid "Delete Jilt coupons"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:198
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:201
+msgid ""
+"This tool will delete unused, expired coupons that were created by Jilt (up "
+"to %s at a time)"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:222
+msgid "Jilt connection data has been cleared."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:278
+msgid "Success! %d Jilt coupon deleted."
+msgid_plural "Success! %d Jilt coupons deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:280
+msgid "Success! All unused, expired Jilt coupons have been deleted."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:176
+msgid "I no longer need this plugin"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:179
+msgid "I'm switching to a different plugin"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:180
+msgid "Please share which plugin"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:183
+msgid "I couldn't get the plugin to work"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:184
+msgid "Please share what happened"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:187
+msgid "It's a temporary deactivation"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:190
+msgid "Other"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:191
+msgid "Please share the reason"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:200
+msgid "Quick Feedback"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:202
+msgid "If you have a moment, please share why you are deactivating %s:"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:219
+msgid "Submit %s Deactivate"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:220
+msgid "Skip %s Deactivate"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jilt"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:265
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:280
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:320
+msgid "Secret Key"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:324
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "Get this from your %1$sJilt account%2$s"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:371
+msgid "Your shop is now disconnected from Jilt."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:426
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Shop not found, please try re-connecting to Jilt or %1$sget in touch with "
+"Jilt Support%2$s to resolve this issue."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:432
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Shop not authorized, please try re-connecting to Jilt or %1$sget in touch "
+"with Jilt Support%2$s to resolve this issue."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:453
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "%1$sGet Support!%2$s"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:459
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "%1$sGo to Jilt dashboard%2$s"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:512
+#. translators: %1$s - Jilt, %2$s - five stars
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:514
+msgid "Thanks :)"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:525
+msgid "Thank you for recovering sales with Jilt."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:548
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. <a> tag, %4$s </a> tag
+msgid ""
+"It looks like this site has moved or is a duplicate site. %1$sJilt for "
+"WooCommerce%2$s has been disabled to prevent sending recovery emails from a "
+"staging or test environment. For more information please %3$sget in "
+"touch%4$s."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:573
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Please try re-connecting to Jilt or %1$sget in touch with Jilt Support%2$s "
+"to help resolve this issue."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:609
+msgid "Shop is now linked to Jilt!"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:627
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Please try re-connecting to Jilt or %1$sget in touch with Jilt Support%2$s "
+"to resolve this issue."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:669
+#: includes/handlers/class-wc-jilt-connection-handler.php:126
+#: includes/handlers/class-wc-jilt-connection-handler.php:179
+#: includes/handlers/class-wc-jilt-connection-handler.php:263
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "Please %1$sget in touch with Jilt Support%2$s to resolve this issue."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:681
+#: includes/handlers/class-wc-jilt-connection-handler.php:175
+#: includes/handlers/class-wc-jilt-connection-handler.php:259
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. error message, %4$s - solution message
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. error message, %3$s - solution message
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. error message, %4$s - solution message
+msgid "%1$sError communicating with Jilt%2$s: %3$s %4$s"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:707
+msgid "Sorry, you don't have permission to do that."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:731
+msgid "Success! The WooCommerce REST API has been enabled for Jilt."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:735
+msgid "Oops! Something went wrong. Please try re-connecting to Jilt."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:757
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Save detailed error messages and API requests/responses to the %1$sdebug "
+"log%2$s"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:763
+msgid "Logging"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:770
+msgid "Info"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:771
+msgid "Warning"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:772
+msgid "Error"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:773
+msgid "Emergency"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:789
+msgid "Post-checkout registration"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:790
+msgid "Enable customer registration on the \"Order Received\" page."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:791
+msgid ""
+"Uses all customer details from the order for the new account for one-click "
+"registration."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:808
+msgid "Connection Status"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:879
+msgid ""
+"Jilt is connected, but secret key authentication is deprecated. Please "
+"reconnect to Jilt."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:881
+#: includes/admin/class-wc-jilt-integration-admin.php:912
+msgid "Re-connect to Jilt"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:887
+#. translators: Placeholders: %1$s - connection error reason
+msgid "Jilt is connected, but WooCommerce REST API is not available: %1$s"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:894
+msgid "Jilt is connected!"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:898
+msgid "Disconnect from Jilt"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:903
+msgid "Please ensure the plugin has been successfully connected to Jilt."
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:905
+msgid "It looks like this site has moved or is a duplicate site."
+msgstr ""
+
+#: includes/admin/views/html-admin-screen.php:45
+msgid ""
+"Automatically send reminder emails to customers who have abandoned their "
+"cart, and recover lost sales."
+msgstr ""
+
+#: includes/admin/views/html-admin-screen.php:70
+msgid "Save settings"
+msgstr ""
+
+#: includes/admin/views/html-admin-welcome-page.php:39
+msgid ""
+"Hooray, your store is now connected to Jilt! You're ready to start sending "
+"automated emails and driving more revenue!"
+msgstr ""
+
+#: includes/admin/views/html-admin-welcome-page.php:40
+msgid "Let's talk next steps:"
+msgstr ""
+
+#: includes/admin/views/html-admin-welcome-page.php:45
+#. translators: Placeholders: %1$s - opening <a> tag, %2$s - closing </a> tag
+msgid ""
+"You can %1$sview your Jilt dashboard here%2$s — setting up your first "
+"campaign takes only minutes and lets you start recovering revenue right "
+"away."
+msgstr ""
+
+#: includes/admin/views/html-admin-welcome-page.php:47
+#. translators: Placeholders: %1$s - opening <a> tag, %2$s - closing </a> tag
+msgid ""
+"You can adjust your shop's %1$sStorefront settings here%2$s. We recommend "
+"enabling add-to-cart popovers to collect more emails from customers "
+"(increasing the number of carts you can recover)."
+msgstr ""
+
+#: includes/admin/views/html-admin-welcome-page.php:49
+#. translators: Placeholders: %1$s - opening <a> tag, %2$s - closing </a> tag
+msgid ""
+"You can see the %1$splugin settings here%2$s. We recommend keeping debug "
+"mode off unless you're working on an issue with our support team."
+msgstr ""
+
+#: includes/admin/views/html-admin-welcome-page.php:51
+#. translators: Placeholders: %1$s and %3$s - opening <a> tag, %2$s and %4$s -
+#. closing </a> tag
+msgid ""
+"If you run into any questions or issues, our %1$sknowledge base is here%2$s "
+"and you can %3$sreach our support team here%4$s."
+msgstr ""
+
+#: includes/admin/views/html-admin-welcome-page.php:56
+#. translators: Placeholders: %1$s and %3$s - opening <a> tag, %2$s and %4$s -
+#. closing </a> tag
+msgid "Ready to keep going? %1$sLet's start configuring!%2$s"
+msgstr ""
+
+#: includes/api/class-wc-jilt-api-oauth2-response.php:119
+msgid "Authentication error. Please try again."
+msgstr ""
+
+#: includes/api/class-wc-jilt-api.php:661
+msgid "Missing authentication token"
+msgstr ""
+
+#: includes/api/rest/class-wc-jilt-rest-debug-log-controller.php:77
+#: includes/api/rest/class-wc-jilt-rest-settings-controller.php:87
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: includes/api/rest/class-wc-jilt-rest-settings-controller.php:121
+msgid "Sorry, you cannot edit this resource."
+msgstr ""
+
+#: includes/api/rest/class-wc-jilt-rest-settings-controller.php:220
+msgid "Sorry, you cannot delete this resource."
+msgstr ""
+
+#: includes/class-wc-jilt-integration.php:148
+msgid "Are you sure you want to disconnect your shop from your Jilt account?"
+msgstr ""
+
+#: includes/class-wc-jilt-integration.php:149
+msgid ""
+"Are you sure you want to revoke this key? Jilt for WooCommerce will not "
+"work properly."
+msgstr ""
+
+#: includes/class-wc-jilt-integration.php:150
+msgid "Please select an option"
+msgstr ""
+
+#: includes/class-wc-jilt-integration.php:1394
+msgid "Order recovered by Jilt."
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:163
+msgid "Reserve this item in your cart!"
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:234
+#. translators: Placeholders: %1$s, %3$s - opening HTML <a> link tag, %2$s -
+#. closing HTML </a> link tag
+msgid ""
+"Your cart is saved while logged in so we can send you email reminders about "
+"it. %1$sGot it!%2$s %3$sNo thanks.%2$s"
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:261
+#. translators: Placeholders: %1$s - opening HTML <a> link tag, %2$s - closing
+#. HTML </a> link tag
+msgid ""
+"Your email and cart are saved so we can send you email reminders about this "
+"order. %1$sNo thanks%2$s."
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:293
+msgid "No thanks, I'll enter my email later."
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:366
+msgid ""
+"Looks like you already have an account! You can link this order to it by "
+"clicking here to log in:"
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:367
+msgid "Log in"
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:420
+#: includes/frontend/class-wc-jilt-frontend.php:428
+msgid "Error linking your previous order."
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:436
+#. translators: Placeholders: %s - order number
+msgid "Order #%s has been linked to your account!"
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:459
+msgid ""
+"Ensure checkout is fast and easy next time! Create an account and we'll "
+"save your address details from this order."
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:460
+msgid "Create Account"
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:479
+msgid "Whoops, looks like this registration link is not valid."
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:491
+#. translators: Placeholder: %1$s - first name, %2$s - <a> tag, %3$s - </a> tag
+msgid "Welcome, %1$s! Your %2$saccount information%3$s has been saved."
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:523
+msgid ""
+"This order does not exist; it may have been deleted. Please register "
+"manually."
+msgstr ""
+
+#: includes/frontend/class-wc-jilt-frontend.php:530
+msgid "Invalid registration link. Please register manually."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-connection-handler.php:122
+#. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
+#. error message, %3$s - solution message
+msgid "%1$sError communicating with Jilt%2$s %3$s %4$s"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-connection-handler.php:246
+#. translators: %1$s - opening <a> tag, %2$s - closing </a> tag
+msgid ""
+"Congratulations! Your shop is now connected to Jilt. You're now ready to "
+"%1$ssetup your first campaign%2$s to start sending emails to your customers."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-customer-handler.php:210
+msgid "You cannot set customer data for logged-in user."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:107
+msgid " (Managed by Jilt)"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:129
+msgid " This email is being managed and sent by Jilt."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:158
+msgid "Jilt Status"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:189
+msgid "Managed by Jilt"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:191
+msgid "Manually sent"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:191
+msgid "Manual"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:193
+msgid "Yes"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:195
+msgid "Disabled"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-wc-api-handler.php:107
+msgid ""
+"Oops, we weren't able to recreate your cart, sorry! Please try adding your "
+"items to your cart again."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-wc-api-handler.php:173
+msgid "Customer visited Jilt order recovery URL."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-wc-api-handler.php:257
+#: includes/handlers/class-wc-jilt-wc-api-handler.php:280
+msgid ""
+"Note: Auto-login disabled when recreating cart for WordPress Admin account. "
+"Checking out as guest."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-wc-rest-api-handler.php:503
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Pretty permalinks are disabled. %1$sPlease update your permalink "
+"settings%2$s to enable API access for Jilt."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-wc-rest-api-handler.php:511
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Legacy WooCommerce REST API is disabled. %1$sClick here%2$s to enable "
+"legacy API."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-wc-rest-api-handler.php:519
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"API key does not exist. %1$sClick here%2$s to create a WooCommerce API key "
+"for Jilt."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-wc-rest-api-handler.php:527
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"API key permissions are not sufficient. %1$sClick here%2$s to correct the "
+"WooCommerce API key for Jilt."
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-wc-rest-api-handler.php:535
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"API key owner permissions are not sufficient. %1$sClick here%2$s to correct "
+"the WooCommerce API key for Jilt."
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-advanced-access-manager-integration.php:63
+msgid "Advanced Access Manager"
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-advanced-access-manager-integration.php:98
+msgid "WP REST API disabled by Advanced Access Manager"
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-afterpay-integration.php:76
+msgid "Afterpay Gateway for WooCommerce"
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-composite-products-integration.php:61
+msgid "Composite Products"
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-gift-cards-integration.php:70
+msgid "Gift Cards"
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-paypal-standard-integration.php:67
+msgid "PayPal Standard"
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-pressable-integration.php:58
+msgid "Pressable"
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-product-bundles-integration.php:62
+msgid "Product Bundles"
+msgstr ""
+
+#: includes/integrations/class-wc-jilt-subscriptions-integration.php:145
+msgid "Subscriptions"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/jilt-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Increase sales in your WooCommerce store by connecting to Jilt - save "
+"abandoned carts and send lifecycle emails that make you money."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://jilt.com"
+msgstr ""
+
+#: class-wc-jilt.php:362
+msgctxt "noun"
+msgid "Support"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-admin-status.php:82
+msgctxt "Version info"
+msgid "%s is available"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:768
+msgctxt "Logging disabled"
+msgid "Off"
+msgstr ""
+
+#: includes/admin/class-wc-jilt-integration-admin.php:769
+msgctxt "Log level debug"
+msgid "Debug"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:322
+msgctxt "managed email state"
+msgid "Live"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:323
+msgctxt "managed email state"
+msgid "Stopped"
+msgstr ""
+
+#: includes/handlers/class-wc-jilt-managed-email-notifications-handler.php:324
+msgctxt "managed email state"
+msgid "Draft"
+msgstr ""

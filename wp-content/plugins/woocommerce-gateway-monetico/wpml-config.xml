@@ -1,0 +1,10 @@
+<wpml-config>
+  <admin-texts>
+	<key name="woocommerce_monetico_settings">
+	  <key name="currency_code" />
+	  <key name="merchant_country" />
+	  <key name="bouton" />
+	  <key name="msg_redirection" />
+	</key>
+  </admin-texts>
+</wpml-config>

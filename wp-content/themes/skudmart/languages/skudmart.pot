@@ -1,0 +1,3725 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"POT-Creation-Date: 2019-09-26 15:25+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: functions.php:192
+msgctxt "admin-view"
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:243
+msgctxt "admin-view"
+msgid "theme primary"
+msgstr ""
+
+#: functions.php:249
+msgctxt "admin-view"
+msgid "theme secondary"
+msgstr ""
+
+#: functions.php:255
+msgctxt "admin-view"
+msgid "strong magenta"
+msgstr ""
+
+#: functions.php:260
+msgctxt "admin-view"
+msgid "light grayish magenta"
+msgstr ""
+
+#: functions.php:265
+msgctxt "admin-view"
+msgid "very light gray"
+msgstr ""
+
+#: functions.php:270
+msgctxt "admin-view"
+msgid "very dark gray"
+msgstr ""
+
+#: functions.php:523
+msgctxt "front-view"
+msgid "Back"
+msgstr ""
+
+#: functions.php:525
+msgctxt "front-view"
+msgid "View List Compare"
+msgstr ""
+
+#: functions.php:526
+msgctxt "front-view"
+msgid "has been added to comparison list."
+msgstr ""
+
+#: functions.php:527 functions.php:540
+msgctxt "front-view"
+msgid "An error occurred ,Please try again !"
+msgstr ""
+
+#: functions.php:530
+msgctxt "front-view"
+msgid "View List Wishlist"
+msgstr ""
+
+#: functions.php:531
+msgctxt "front-view"
+msgid "has been added to your wishlist."
+msgstr ""
+
+#: functions.php:532 functions.php:537
+msgctxt "front-view"
+msgid "An error occurred, Please try again !"
+msgstr ""
+
+#: functions.php:535
+msgctxt "front-view"
+msgid "View Cart"
+msgstr ""
+
+#: functions.php:536
+msgctxt "front-view"
+msgid "has been added to your cart"
+msgstr ""
+
+#: functions.php:541
+msgctxt "front-view"
+msgid "Please enter Name !"
+msgstr ""
+
+#: functions.php:542
+msgctxt "front-view"
+msgid "Please enter Email Address !"
+msgstr ""
+
+#: functions.php:543
+msgctxt "front-view"
+msgid "Please select a rating !"
+msgstr ""
+
+#: functions.php:544
+msgctxt "front-view"
+msgid "Please enter Comment !"
+msgstr ""
+
+#: functions.php:545
+msgctxt "front-view"
+msgid "Continue Shopping"
+msgstr ""
+
+#: functions.php:546
+msgctxt "front-view"
+msgid ""
+"We are sorry, but this feature is available only if cookies are enabled on "
+"your browser"
+msgstr ""
+
+#: functions.php:618
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:620
+msgid ""
+"Widgets in this area will be displayed in the left or right sidebar area if "
+"you choose the Left or Right Sidebar layout."
+msgstr ""
+
+#: functions.php:638
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:642
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: 404.php:57
+msgctxt "front-end"
+msgid "404"
+msgstr ""
+
+#: 404.php:58
+msgctxt "front-end"
+msgid "Page Cannot Be Found!"
+msgstr ""
+
+#: 404.php:59
+msgctxt "front-view"
+msgid "Back to home"
+msgstr ""
+
+#: comments.php:40
+msgid "This post has one comment"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+msgid "This post has %s comments"
+msgstr ""
+
+#: comments.php:63
+msgid "Previous"
+msgstr ""
+
+#: comments.php:64
+msgid "Next"
+msgstr ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:80
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:81
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:81
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:81
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:84
+msgid "Your Comment Here..."
+msgstr ""
+
+#: comments.php:86
+msgid "Post Comment"
+msgstr ""
+
+#: searchform.php:6
+msgctxt "front-view"
+msgid "Search here&hellip;"
+msgstr ""
+
+#: searchform.php:6 woocommerce/product-searchform.php:25
+msgctxt "front-view"
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/la_compare.php:38
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/la_compare.php:81
+msgctxt "front-view"
+msgid "Product Info"
+msgstr ""
+
+#: woocommerce/la_compare.php:101
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/la_compare.php:130
+msgid "In stock"
+msgstr ""
+
+#: woocommerce/la_compare.php:133
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/la_compare.php:174
+msgid "No products were added to the list"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:36
+msgctxt "front-view"
+msgid "Prev"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:37
+msgctxt "front-view"
+msgid "Next"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:51 woocommerce/la_wishlist.php:91
+msgid "Product"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:52 woocommerce/la_wishlist.php:94
+msgid "Stock Status"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:53 woocommerce/la_wishlist.php:103
+#: framework/woocommerce/woocommerce-helpers.php:102
+msgid "Price"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:82
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:96
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:99
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:133
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgctxt "front-view"
+msgid "Search entire store&hellip;"
+msgstr ""
+
+#: plugins/tgm-plugin-activation.php:36
+msgctxt "admin-view"
+msgid "LA-Studio Core"
+msgstr ""
+
+#: plugins/tgm-plugin-activation.php:44
+msgctxt "admin-view"
+msgid "LA-Studio Header Builder"
+msgstr ""
+
+#: plugins/tgm-plugin-activation.php:52
+msgctxt "admin-view"
+msgid "Elementor"
+msgstr ""
+
+#: plugins/tgm-plugin-activation.php:59 framework/configs/options.php:712
+#: framework/functions/helpers.php:1576
+msgctxt "admin-view"
+msgid "WooCommerce"
+msgstr ""
+
+#: plugins/tgm-plugin-activation.php:66
+msgctxt "admin-view"
+msgid "Skudmart Package Demo Data"
+msgstr ""
+
+#: plugins/tgm-plugin-activation.php:74
+msgctxt "admin-view"
+msgid "Envato Market"
+msgstr ""
+
+#: plugins/tgm-plugin-activation.php:82
+msgctxt "admin-view"
+msgid "Contact Form 7"
+msgstr ""
+
+#: plugins/tgm-plugin-activation.php:88
+msgctxt "admin-view"
+msgid "Slider Revolution"
+msgstr ""
+
+#: dokan/store-custom-header.php:17
+msgid "Store Open"
+msgstr ""
+
+#: dokan/store-custom-header.php:18
+msgid "Store Closed"
+msgstr ""
+
+#: dokan/store-custom-header.php:95
+msgid "Search in this shop"
+msgstr ""
+
+#: dokan/store-toc.php:25
+msgid "Terms And Conditions"
+msgstr ""
+
+#: partials/none.php:9
+msgctxt "front-view"
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:75
+msgctxt "front-view"
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:66
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:68
+msgctxt "front-view"
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/related.php:70
+msgctxt "front-view"
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:39
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:35
+msgctxt "front-view"
+msgid "Sort by"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:36
+msgctxt "front-view"
+msgid "Grid view"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:41
+msgctxt "front-view"
+msgid "List view"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:45
+msgctxt "front-view"
+msgid "Filters"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:52 woocommerce/loop/toolbar.php:55
+#, php-format
+msgid "Show %s"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:83
+msgctxt "front-view"
+msgid "Clear All Filter"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:76
+#, php-format
+msgid "\"%1$s\" has been removed from wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:90
+#, php-format
+msgid "\"%1$s\" has been added to your cart."
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:128
+#: framework/woocommerce/woocommerce-wishlist.php:136
+#: framework/woocommerce/woocommerce-wishlist.php:142
+#: framework/woocommerce/woocommerce-compare.php:112
+#: framework/woocommerce/woocommerce-compare.php:120
+#: framework/woocommerce/woocommerce-compare.php:126
+msgid "Invalid Product ID"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:154
+#: framework/woocommerce/woocommerce-compare.php:138
+msgid "Invalid security key"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:164
+msgid "Product already in wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:168
+#: framework/woocommerce/woocommerce-compare.php:152
+msgid "Product added"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:184
+msgid "Product has been removed from wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:191
+msgid "Product does not exist in wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:200
+msgctxt "admin-view"
+msgid "Shop Sidebar Filter"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:429
+#: framework/woocommerce/woocommerce-helpers.php:446
+msgid "Days"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:432
+#: framework/woocommerce/woocommerce-helpers.php:449
+msgid "Hours"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:435
+#: framework/woocommerce/woocommerce-helpers.php:452
+msgid "Mins"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:438
+#: framework/woocommerce/woocommerce-helpers.php:455
+msgid "Secs"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:449
+msgid "Available"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:450
+msgid "Sold"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:470
+#: framework/woocommerce/woocommerce-config.php:471
+msgctxt "front-view"
+msgid "Quick View"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:504
+#: framework/woocommerce/woocommerce-config.php:507
+#: framework/woocommerce/woocommerce-config.php:513
+msgctxt "front-view"
+msgid "Compare"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:541
+#: framework/woocommerce/woocommerce-config.php:568
+#: framework/woocommerce/woocommerce-config.php:591
+msgctxt "front-view"
+msgid "View Wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:546
+msgctxt "front-view"
+msgid "Add to Wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:573
+#: framework/woocommerce/woocommerce-config.php:596
+msgctxt "front-view"
+msgid "Wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:707
+msgctxt "front-end"
+msgid "Share this product"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:736
+#, php-format
+msgctxt "front-view"
+msgid "%s items"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:24
+msgid "Default"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:34
+#: framework/woocommerce/woocommerce-helpers.php:49
+#: framework/third/lastudio-elementor.php:46
+#: framework/third/lastudio-elementor.php:61
+#: framework/third/lastudio-elementor.php:73 framework/configs/options.php:1464
+msgid "Type 1"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:35
+#: framework/woocommerce/woocommerce-helpers.php:50
+#: framework/third/lastudio-elementor.php:47
+#: framework/third/lastudio-elementor.php:62
+#: framework/third/lastudio-elementor.php:74 framework/configs/options.php:1465
+msgid "Type 2"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:36
+#: framework/woocommerce/woocommerce-helpers.php:51
+#: framework/third/lastudio-elementor.php:48
+#: framework/third/lastudio-elementor.php:63
+#: framework/third/lastudio-elementor.php:75 framework/configs/options.php:1466
+msgid "Type 3"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:37
+#: framework/woocommerce/woocommerce-helpers.php:52
+#: framework/third/lastudio-elementor.php:49
+#: framework/third/lastudio-elementor.php:64
+#: framework/third/lastudio-elementor.php:76 framework/configs/options.php:1467
+msgid "Type 4"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:38
+#: framework/woocommerce/woocommerce-helpers.php:53
+#: framework/third/lastudio-elementor.php:50
+#: framework/third/lastudio-elementor.php:77 framework/configs/options.php:1468
+msgid "Type 5"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:39
+#: framework/woocommerce/woocommerce-helpers.php:54
+#: framework/third/lastudio-elementor.php:51
+#: framework/third/lastudio-elementor.php:78 framework/configs/options.php:1469
+msgid "Type 6"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:40
+msgid "Minimalist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:99
+msgid "Image"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:100
+msgid "Title"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:101
+msgid "Add to cart"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:103
+msgid "Sku"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:104
+msgid "Description"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:105
+msgid "Availability"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:106
+msgid "Weight"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:107
+msgid "Dimensions"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:191
+msgctxt "front-view"
+msgid "Choose an option"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:380
+msgid "Sort by Default"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:381
+msgid "Sort by Popularity"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:382
+msgid "Sort by Rated"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:383
+msgid "Sort by Latest"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:384
+#: framework/woocommerce/woocommerce-helpers.php:385
+#, php-format
+msgid "Sort by Price: %s"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:469
+#, php-format
+msgid "%s Sold"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:488
+msgid "Estimate Shipping"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:489
+msgid "Enter your destination to get shipping"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:493
+msgid "Discount code"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:494
+msgid "Enter your coupon if you have one"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:508
+msgid "01"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:508
+msgid "Shopping Cart"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:509
+msgid "02"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:509
+msgid "Check out"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:510
+msgid "03"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:510
+msgid "Order completed"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:521
+msgid "Your order"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:74
+#, php-format
+msgid "\"%1$s\" has been removed from list"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:148
+msgid "Product already in list"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:168
+msgid "Product has been removed from list"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:175
+msgid "Product does not exist in list"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:26
+msgid "Custom Icon"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:32
+msgid "Show Only Icon"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:38
+msgid "Menu Type"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:40
+msgid "Narrow"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:41
+msgid "Wide"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:49
+msgid "Force Full Width"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:50
+msgid "Set 100% window width for popup"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:56
+msgid "Popup Max Width"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:64
+msgid "Popup Columns"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:66
+msgid "1 Column"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:67
+msgid "2 Columns"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:68
+msgid "3 Columns"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:69
+msgid "4 Columns"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:70
+msgid "5 Columns"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:71
+msgid "6 Columns"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:79
+msgid "Columns"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:80
+msgid "will occupy x columns of parent popup columns"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:86
+msgid "Custom Block Before Menu Item"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:89
+#: framework/classes/class-megamenu-init.php:98
+msgid "Select a block"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:95
+msgid "Custom Block After Menu Item"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:104
+msgid "Popup Background"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:110
+msgid "Tip Label"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:116
+msgid "Tip Color"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:122
+msgid "Tip Background"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:184
+msgid "MegaMenu Settings"
+msgstr ""
+
+#: framework/classes/class-admin.php:66
+#, php-format
+msgid ""
+"<strong>%1$s</strong> widget area has been created. You can create more "
+"areas, once you finish update the page to see all the areas."
+msgstr ""
+
+#: framework/classes/class-admin.php:82
+#, php-format
+msgid "<strong>%1$s</strong> widget area has been deleted."
+msgstr ""
+
+#: framework/classes/class-admin.php:128
+msgid "Here you can create new widget areas for use in the Sidebar module"
+msgstr ""
+
+#: framework/classes/class-admin.php:129
+msgid "Widget Name"
+msgstr ""
+
+#: framework/classes/class-admin.php:130
+msgid "Create"
+msgstr ""
+
+#: framework/classes/class-admin.php:132
+msgid "Are you sure?"
+msgstr ""
+
+#: framework/classes/class-admin.php:133
+msgid "Delete"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:280
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:281 framework/configs/options.php:594
+msgid "Home"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:282 framework/configs/options.php:600
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:283
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: framework/classes/breadcrumbs.php:285 framework/configs/options.php:607
+msgid "Search results for"
+msgstr ""
+
+#. %s is the page number.
+#: framework/classes/breadcrumbs.php:287
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: framework/classes/breadcrumbs.php:289
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: framework/classes/breadcrumbs.php:291
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:876
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:893
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:910
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:926 framework/classes/breadcrumbs.php:955
+#: framework/classes/breadcrumbs.php:982 framework/classes/breadcrumbs.php:1009
+#: framework/classes/breadcrumbs.php:1352
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:927 framework/classes/breadcrumbs.php:983
+#: framework/classes/breadcrumbs.php:1356
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:928 framework/classes/breadcrumbs.php:1360
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:956
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: framework/classes/class-options.php:37
+msgctxt "admin-view"
+msgid "1 column"
+msgstr ""
+
+#: framework/classes/class-options.php:38
+msgctxt "admin-view"
+msgid "2 columns left (3-9)"
+msgstr ""
+
+#: framework/classes/class-options.php:39
+msgctxt "admin-view"
+msgid "2 columns right (9-3)"
+msgstr ""
+
+#: framework/classes/class-options.php:40
+msgctxt "admin-view"
+msgid "2 columns left (4-8)"
+msgstr ""
+
+#: framework/classes/class-options.php:41
+msgctxt "admin-view"
+msgid "2 columns right (8-4)"
+msgstr ""
+
+#: framework/classes/class-options.php:45
+#: framework/classes/class-options.php:64
+#: framework/classes/class-options.php:74
+#: framework/classes/class-options.php:84
+#: framework/classes/class-options.php:101 framework/configs/metaboxes.php:229
+#: framework/configs/metaboxes.php:304 framework/functions/helpers.php:1632
+msgctxt "admin-view"
+msgid "Inherit"
+msgstr ""
+
+#: framework/classes/class-options.php:55
+msgctxt "admin-view"
+msgid "Header Layout 01 ( Logo + Menu + Access Icon )"
+msgstr ""
+
+#: framework/classes/class-options.php:76 framework/configs/options.php:932
+msgctxt "admin-view"
+msgid "Yes"
+msgstr ""
+
+#: framework/classes/class-options.php:77
+msgctxt "admin-view"
+msgid "No"
+msgstr ""
+
+#: framework/classes/class-options.php:86 framework/configs/metaboxes.php:230
+#: framework/configs/options.php:1056 framework/configs/options.php:1087
+#: framework/configs/options.php:1213
+msgctxt "admin-view"
+msgid "On"
+msgstr ""
+
+#: framework/classes/class-options.php:87 framework/configs/metaboxes.php:231
+#: framework/configs/options.php:1057 framework/configs/options.php:1088
+#: framework/configs/options.php:1214
+msgctxt "admin-view"
+msgid "Off"
+msgstr ""
+
+#: framework/classes/class-options.php:93
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs Centered"
+msgstr ""
+
+#: framework/classes/class-options.php:94
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs In Left"
+msgstr ""
+
+#: framework/classes/class-options.php:95
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs In Right"
+msgstr ""
+
+#: framework/classes/class-options.php:96
+msgctxt "admin-view"
+msgid "Title Left & Breadcrumbs Right"
+msgstr ""
+
+#: framework/classes/class-options.php:97
+msgctxt "admin-view"
+msgid "Title Right & Breadcrumbs Left"
+msgstr ""
+
+#: framework/classes/class-options.php:102
+msgctxt "admin-view"
+msgid "Hidden"
+msgstr ""
+
+#: framework/third/dokan.php:81
+msgid "Store Banner width"
+msgstr ""
+
+#: framework/third/dokan.php:87
+msgid "Store Banner height"
+msgstr ""
+
+#: framework/third/dokan.php:93
+msgid "Store Header Template"
+msgstr ""
+
+#: framework/third/dokan.php:94
+msgid "Use Store Header Template from the theme"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:18 framework/third/lastudio.php:180
+msgid "LA-Studio Icons"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:34 framework/configs/options.php:616
+#: framework/configs/options.php:629 framework/configs/options.php:643
+msgid "None"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:35
+msgid "LaStudio Type 1"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:36
+msgid "LaStudio Type 2"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:37
+msgid "LaStudio Type 3"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:52
+#: framework/third/lastudio-elementor.php:79
+msgid "Type 7"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:80
+msgid "Type 8"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:89
+msgid "Grid 1"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:90
+msgid "Grid 2"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:91
+msgid "Grid 3"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:92
+msgid "Grid 4"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:93
+msgid "Grid 5"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:94
+msgid "List 1"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:95
+msgid "List 2"
+msgstr ""
+
+#: framework/configs/metaboxes.php:10
+msgctxt "admin-view"
+msgid "Meta Options"
+msgstr ""
+
+#: framework/configs/metaboxes.php:19
+msgctxt "admin-view"
+msgid "Post"
+msgstr ""
+
+#: framework/configs/metaboxes.php:25
+msgctxt "admin-view"
+msgid "For post format QUOTE"
+msgstr ""
+
+#: framework/configs/metaboxes.php:30
+msgctxt "admin-view"
+msgid "Quote Content"
+msgstr ""
+
+#: framework/configs/metaboxes.php:35
+msgctxt "admin-view"
+msgid "Quote Author"
+msgstr ""
+
+#: framework/configs/metaboxes.php:40
+msgctxt "admin-view"
+msgid "Quote Background Color"
+msgstr ""
+
+#: framework/configs/metaboxes.php:46
+msgctxt "admin-view"
+msgid "Quote Text Color"
+msgstr ""
+
+#: framework/configs/metaboxes.php:52
+msgctxt "admin-view"
+msgid "For post format LINK"
+msgstr ""
+
+#: framework/configs/metaboxes.php:57
+msgctxt "admin-view"
+msgid "Custom Link"
+msgstr ""
+
+#: framework/configs/metaboxes.php:62
+msgctxt "admin-view"
+msgid "For post format VIDEO & AUDIO"
+msgstr ""
+
+#: framework/configs/metaboxes.php:67
+msgctxt "admin-view"
+msgid "Custom Video Link"
+msgstr ""
+
+#: framework/configs/metaboxes.php:68
+msgctxt "admin-view"
+msgid "Insert Youtube or Vimeo embed link"
+msgstr ""
+
+#: framework/configs/metaboxes.php:73
+msgctxt "admin-view"
+msgid "Embed Code"
+msgstr ""
+
+#: framework/configs/metaboxes.php:74
+msgctxt "admin-view"
+msgid "Insert Youtube or Vimeo or Audio embed code."
+msgstr ""
+
+#: framework/configs/metaboxes.php:80
+msgctxt "admin-view"
+msgid "Embed aspect ration"
+msgstr ""
+
+#: framework/configs/metaboxes.php:90
+msgctxt "admin-view"
+msgid "For post format GALLERY"
+msgstr ""
+
+#: framework/configs/metaboxes.php:95
+msgctxt "admin-view"
+msgid "Gallery Images"
+msgstr ""
+
+#: framework/configs/metaboxes.php:104
+msgctxt "admin-view"
+msgid "Member Information"
+msgstr ""
+
+#: framework/configs/metaboxes.php:111
+msgctxt "admin-view"
+msgid "Role"
+msgstr ""
+
+#: framework/configs/metaboxes.php:116
+msgctxt "admin-view"
+msgid "Phone"
+msgstr ""
+
+#: framework/configs/metaboxes.php:121
+msgctxt "admin-view"
+msgid "Facebook URL"
+msgstr ""
+
+#: framework/configs/metaboxes.php:126
+msgctxt "admin-view"
+msgid "Twitter URL"
+msgstr ""
+
+#: framework/configs/metaboxes.php:131
+msgctxt "admin-view"
+msgid "Pinterest URL"
+msgstr ""
+
+#: framework/configs/metaboxes.php:136
+msgctxt "admin-view"
+msgid "LinkedIn URL"
+msgstr ""
+
+#: framework/configs/metaboxes.php:141
+msgctxt "admin-view"
+msgid "Dribbble URL"
+msgstr ""
+
+#: framework/configs/metaboxes.php:146
+msgctxt "admin-view"
+msgid "Youtube URL"
+msgstr ""
+
+#: framework/configs/metaboxes.php:151
+msgctxt "admin-view"
+msgid "Email Address"
+msgstr ""
+
+#: framework/configs/metaboxes.php:160
+msgctxt "admin-view"
+msgid "Product"
+msgstr ""
+
+#: framework/configs/metaboxes.php:167
+msgctxt "admin-view"
+msgid "Product Video URL"
+msgstr ""
+
+#: framework/configs/metaboxes.php:172
+msgctxt "admin-view"
+msgid "Custom Badges"
+msgstr ""
+
+#: framework/configs/metaboxes.php:173
+msgctxt "admin-view"
+msgid "Add Badge"
+msgstr ""
+
+#: framework/configs/metaboxes.php:180
+msgctxt "admin-view"
+msgid "Badge Text"
+msgstr ""
+
+#: framework/configs/metaboxes.php:186
+msgctxt "admin-view"
+msgid "Custom Badge Background Color"
+msgstr ""
+
+#: framework/configs/metaboxes.php:192
+msgctxt "admin-view"
+msgid "Custom Badge Text Color"
+msgstr ""
+
+#: framework/configs/metaboxes.php:198
+msgctxt "admin-view"
+msgid "Extra CSS class for badge"
+msgstr ""
+
+#: framework/configs/metaboxes.php:211 framework/configs/metaboxes.php:217
+msgctxt "admin-view"
+msgid "Layout"
+msgstr ""
+
+#: framework/configs/metaboxes.php:218 framework/configs/options.php:50
+#: framework/configs/options.php:1045 framework/configs/options.php:1202
+msgctxt "admin-view"
+msgid ""
+"Select main content and sidebar alignment. Choose between 1, 2 or 3 column "
+"layout."
+msgstr ""
+
+#: framework/configs/metaboxes.php:226 framework/configs/options.php:1053
+#: framework/configs/options.php:1210
+msgctxt "admin-view"
+msgid "Enable Small Layout"
+msgstr ""
+
+#: framework/configs/metaboxes.php:238 framework/configs/options.php:75
+#: framework/configs/options.php:1064 framework/configs/options.php:1395
+#: framework/configs/options.php:1808 framework/configs/options.php:2227
+msgctxt "admin-view"
+msgid "100% Main Width"
+msgstr ""
+
+#: framework/configs/metaboxes.php:239 framework/configs/options.php:76
+#: framework/configs/options.php:1065 framework/configs/options.php:1396
+#: framework/configs/options.php:1809
+msgctxt "admin-view"
+msgid ""
+"Turn on to have the main area display at 100% width according to the window "
+"size. Turn off to follow site width."
+msgstr ""
+
+#: framework/configs/metaboxes.php:245 framework/configs/options.php:82
+#: framework/configs/options.php:1402 framework/configs/options.php:1815
+#: framework/configs/options.php:2234
+msgctxt "admin-view"
+msgid "Custom Main Space"
+msgstr ""
+
+#: framework/configs/metaboxes.php:246
+msgctxt "admin-view"
+msgid "Leave empty if you not need"
+msgstr ""
+
+#: framework/configs/metaboxes.php:252
+msgctxt "admin-view"
+msgid "Override Sidebar"
+msgstr ""
+
+#: framework/configs/metaboxes.php:253
+msgctxt "admin-view"
+msgid "Select sidebar that will display on this page."
+msgstr ""
+
+#: framework/configs/metaboxes.php:255 framework/configs/options.php:751
+#: framework/configs/options.php:776 framework/configs/options.php:801
+#: framework/configs/options.php:826 framework/configs/options.php:846
+#: framework/configs/options.php:871
+msgctxt "admin-view"
+msgid "None"
+msgstr ""
+
+#: framework/configs/metaboxes.php:262
+msgctxt "admin-view"
+msgid "Custom Body CSS Class"
+msgstr ""
+
+#: framework/configs/metaboxes.php:271 framework/configs/options.php:554
+msgctxt "admin-view"
+msgid "Header"
+msgstr ""
+
+#: framework/configs/metaboxes.php:278
+msgctxt "admin-view"
+msgid "Hide header"
+msgstr ""
+
+#: framework/configs/metaboxes.php:284
+msgctxt "admin-view"
+msgid "Header Layout"
+msgstr ""
+
+#: framework/configs/metaboxes.php:285
+msgctxt "admin-view"
+msgid "Controls the layout of the header."
+msgstr ""
+
+#: framework/configs/metaboxes.php:294
+msgctxt "admin-view"
+msgid "Enable Header Transparency"
+msgstr ""
+
+#: framework/configs/metaboxes.php:302 framework/configs/options.php:544
+msgctxt "admin-view"
+msgid "Enable Header Sticky"
+msgstr ""
+
+#: framework/configs/metaboxes.php:305 framework/configs/options.php:546
+msgctxt "admin-view"
+msgid "Disable"
+msgstr ""
+
+#: framework/configs/metaboxes.php:306 framework/configs/options.php:547
+msgctxt "admin-view"
+msgid "Activate when scroll up"
+msgstr ""
+
+#: framework/configs/metaboxes.php:307 framework/configs/options.php:548
+msgctxt "admin-view"
+msgid "Activate when scroll up & down"
+msgstr ""
+
+#: framework/configs/metaboxes.php:326
+msgctxt "admin-view"
+msgid "Enable Custom Style"
+msgstr ""
+
+#: framework/configs/metaboxes.php:335
+msgctxt "admin-view"
+msgid "Hide Breadcrumbs"
+msgstr ""
+
+#: framework/configs/metaboxes.php:344
+msgctxt "admin-view"
+msgid "Replace breadcrumb by custom text"
+msgstr ""
+
+#: framework/configs/metaboxes.php:352 framework/configs/options.php:962
+#: framework/configs/options.php:978
+msgctxt "admin-view"
+msgid "Custom Text"
+msgstr ""
+
+#: framework/configs/metaboxes.php:360
+msgctxt "admin-view"
+msgid "Hide Page Title"
+msgstr ""
+
+#: framework/configs/metaboxes.php:368
+msgctxt "admin-view"
+msgid "Page Title Bar"
+msgstr ""
+
+#: framework/configs/metaboxes.php:376 framework/configs/options.php:892
+msgid "here"
+msgstr ""
+
+#: framework/configs/metaboxes.php:378 framework/configs/options.php:895
+msgctxt "admin-view"
+msgid "Footer"
+msgstr ""
+
+#: framework/configs/metaboxes.php:385
+msgctxt "admin-view"
+msgid "Hide Footer"
+msgstr ""
+
+#: framework/configs/metaboxes.php:392 framework/configs/options.php:902
+msgctxt "admin-view"
+msgid "Footer Layout"
+msgstr ""
+
+#: framework/configs/metaboxes.php:393 framework/configs/options.php:903
+msgctxt "admin-view"
+msgid "Select a layout"
+msgstr ""
+
+#: framework/configs/metaboxes.php:394 framework/configs/options.php:904
+#, php-format
+msgid "You can manage footer layout on %s"
+msgstr ""
+
+#: framework/configs/options.php:12
+msgctxt "admin-view"
+msgid "Theme Options"
+msgstr ""
+
+#: framework/configs/options.php:25
+msgctxt "admin-view"
+msgid "Skudmart"
+msgstr ""
+
+#: framework/configs/options.php:33 framework/configs/options.php:42
+#: framework/configs/options.php:1371
+msgctxt "admin-view"
+msgid "General"
+msgstr ""
+
+#: framework/configs/options.php:47
+msgctxt "admin-view"
+msgid "Global Layout"
+msgstr ""
+
+#: framework/configs/options.php:57
+msgctxt "admin-view"
+msgid "Enable Layout Boxed"
+msgstr ""
+
+#: framework/configs/options.php:64
+msgctxt "admin-view"
+msgid "Body Max Width"
+msgstr ""
+
+#: framework/configs/options.php:89
+msgctxt "admin-view"
+msgid "\"Back to top\" Button"
+msgstr ""
+
+#: framework/configs/options.php:90
+msgctxt "admin-view"
+msgid "Turn on to show \"Back to top\" button"
+msgstr ""
+
+#: framework/configs/options.php:101
+msgctxt "admin-view"
+msgid "Custom Favicon"
+msgstr ""
+
+#: framework/configs/options.php:108
+msgctxt "admin-view"
+msgid "Favicon"
+msgstr ""
+
+#: framework/configs/options.php:109
+msgctxt "admin-view"
+msgid "Favicon for your website at 16px x 16px."
+msgstr ""
+
+#: framework/configs/options.php:115
+msgctxt "admin-view"
+msgid "Apple iPhone Icon Upload"
+msgstr ""
+
+#: framework/configs/options.php:116
+msgctxt "admin-view"
+msgid "Favicon for Apple iPhone at 57px x 57px."
+msgstr ""
+
+#: framework/configs/options.php:122
+msgctxt "admin-view"
+msgid "Apple iPad Icon Upload"
+msgstr ""
+
+#: framework/configs/options.php:123
+msgctxt "admin-view"
+msgid "Favicon for Apple iPad at 72px x 72px."
+msgstr ""
+
+#: framework/configs/options.php:134 framework/configs/options.php:152
+msgctxt "admin-view"
+msgid "Logo"
+msgstr ""
+
+#: framework/configs/options.php:143 framework/configs/options.php:528
+msgid "Open Header Builder"
+msgstr ""
+
+#: framework/configs/options.php:159
+msgctxt "admin-view"
+msgid "Default Logo"
+msgstr ""
+
+#: framework/configs/options.php:160
+msgctxt "admin-view"
+msgid "Select an image file for your logo."
+msgstr ""
+
+#: framework/configs/options.php:171
+msgctxt "admin-view"
+msgid "Colors"
+msgstr ""
+
+#: framework/configs/options.php:177
+msgctxt "admin-view"
+msgid "Body Background"
+msgstr ""
+
+#: framework/configs/options.php:182
+msgctxt "admin-view"
+msgid "Body Boxed Background"
+msgstr ""
+
+#: framework/configs/options.php:189
+msgctxt "admin-view"
+msgid "Primary Color"
+msgstr ""
+
+#: framework/configs/options.php:195
+msgctxt "admin-view"
+msgid "Secondary Color"
+msgstr ""
+
+#: framework/configs/options.php:205
+msgctxt "admin-view"
+msgid "Page Preload"
+msgstr ""
+
+#: framework/configs/options.php:212
+msgctxt "admin-view"
+msgid "Page Preload Animation"
+msgstr ""
+
+#: framework/configs/options.php:213
+msgctxt "admin-view"
+msgid "Turn on to show the icon/images loading animation before view site"
+msgstr ""
+
+#: framework/configs/options.php:220
+msgctxt "admin-view"
+msgid "Select Preload Style"
+msgstr ""
+
+#: framework/configs/options.php:222 framework/configs/options.php:1297
+msgctxt "admin-view"
+msgid "Style 1"
+msgstr ""
+
+#: framework/configs/options.php:223 framework/configs/options.php:1298
+msgctxt "admin-view"
+msgid "Style 2"
+msgstr ""
+
+#: framework/configs/options.php:224 framework/configs/options.php:1299
+msgctxt "admin-view"
+msgid "Style 3"
+msgstr ""
+
+#: framework/configs/options.php:225 framework/configs/options.php:1300
+msgctxt "admin-view"
+msgid "Style 4"
+msgstr ""
+
+#: framework/configs/options.php:226
+msgctxt "admin-view"
+msgid "Style 5"
+msgstr ""
+
+#: framework/configs/options.php:227
+msgctxt "admin-view"
+msgid "Custom image"
+msgstr ""
+
+#: framework/configs/options.php:235
+msgctxt "admin-view"
+msgid "Custom Page Loading Image"
+msgstr ""
+
+#: framework/configs/options.php:236
+msgctxt "admin-view"
+msgid "Add Image"
+msgstr ""
+
+#: framework/configs/options.php:248
+msgctxt "admin-view"
+msgid "Typography"
+msgstr ""
+
+#: framework/configs/options.php:257
+msgctxt "admin-view"
+msgid "Body"
+msgstr ""
+
+#: framework/configs/options.php:276
+msgctxt "admin-view"
+msgid "All Headings"
+msgstr ""
+
+#: framework/configs/options.php:294
+msgctxt "admin-view"
+msgid "Heading 1 (H1)"
+msgstr ""
+
+#: framework/configs/options.php:312
+msgctxt "admin-view"
+msgid "Heading 2 (H2)"
+msgstr ""
+
+#: framework/configs/options.php:330
+msgctxt "admin-view"
+msgid "Heading 3 (H3)"
+msgstr ""
+
+#: framework/configs/options.php:348
+msgctxt "admin-view"
+msgid "Heading 4 (H4)"
+msgstr ""
+
+#: framework/configs/options.php:366
+msgctxt "admin-view"
+msgid "Blog Entry Title"
+msgstr ""
+
+#: framework/configs/options.php:384
+msgctxt "admin-view"
+msgid "Blog Entry Meta"
+msgstr ""
+
+#: framework/configs/options.php:402
+msgctxt "admin-view"
+msgid "Blog Entry Content"
+msgstr ""
+
+#: framework/configs/options.php:420
+msgctxt "admin-view"
+msgid "Blog Post Title"
+msgstr ""
+
+#: framework/configs/options.php:438
+msgctxt "admin-view"
+msgid "Blog Post Meta"
+msgstr ""
+
+#: framework/configs/options.php:456
+msgctxt "admin-view"
+msgid "Blog Post Content"
+msgstr ""
+
+#: framework/configs/options.php:474 framework/configs/options.php:481
+msgctxt "admin-view"
+msgid "Custom Selector"
+msgstr ""
+
+#: framework/configs/options.php:486
+msgctxt "admin-view"
+msgid "Group Title"
+msgstr ""
+
+#: framework/configs/options.php:501
+msgid "What is this ?"
+msgstr ""
+
+#: framework/configs/options.php:503
+msgctxt "admin-view"
+msgid ""
+"In CSS, selectors are patterns used to select the element(s) you want to "
+"style."
+msgstr ""
+
+#: framework/configs/options.php:504
+msgctxt "admin-view"
+msgid "CSS elements selector"
+msgstr ""
+
+#: framework/configs/options.php:536
+msgctxt "admin-view"
+msgid "Header Transparency"
+msgstr ""
+
+#: framework/configs/options.php:564 framework/configs/options.php:1084
+msgctxt "admin-view"
+msgid "Page Header Bar"
+msgstr ""
+
+#: framework/configs/options.php:578
+msgctxt "admin-view"
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: framework/configs/options.php:585
+msgctxt "admin-view"
+msgid "Home Item"
+msgstr ""
+
+#: framework/configs/options.php:587
+msgctxt "admin-view"
+msgid "Icon"
+msgstr ""
+
+#: framework/configs/options.php:588
+msgctxt "admin-view"
+msgid "Text"
+msgstr ""
+
+#: framework/configs/options.php:595
+msgctxt "admin-view"
+msgid "Translation for Homepage"
+msgstr ""
+
+#: framework/configs/options.php:601
+msgctxt "admin-view"
+msgid "Translation for \"404 Not Found\""
+msgstr ""
+
+#: framework/configs/options.php:608
+msgctxt "admin-view"
+msgid "Translation for \"Search results for\""
+msgstr ""
+
+#: framework/configs/options.php:614
+msgctxt "admin-view"
+msgid "Posts Taxonomy"
+msgstr ""
+
+#: framework/configs/options.php:617 framework/configs/options.php:630
+#: framework/configs/options.php:644
+msgid "Category"
+msgstr ""
+
+#: framework/configs/options.php:618 framework/configs/options.php:631
+msgid "Tag"
+msgstr ""
+
+#: framework/configs/options.php:619
+msgid "Blog Page"
+msgstr ""
+
+#: framework/configs/options.php:627
+msgctxt "admin-view"
+msgid "Products Taxonomy"
+msgstr ""
+
+#: framework/configs/options.php:632
+msgid "Shop Page"
+msgstr ""
+
+#: framework/configs/options.php:641
+msgctxt "admin-view"
+msgid "Portfolio Taxonomy"
+msgstr ""
+
+#: framework/configs/options.php:645
+msgid "Portfolio Page"
+msgstr ""
+
+#: framework/configs/options.php:652
+msgctxt "admin-view"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/configs/options.php:659
+msgctxt "admin-view"
+msgid "Global Page Header"
+msgstr ""
+
+#: framework/configs/options.php:669 framework/configs/options.php:768
+msgctxt "admin-view"
+msgid "Blog Posts"
+msgstr ""
+
+#: framework/configs/options.php:679 framework/functions/helpers.php:1588
+msgctxt "admin-view"
+msgid "Single Post"
+msgstr ""
+
+#: framework/configs/options.php:690 framework/functions/helpers.php:1582
+msgctxt "admin-view"
+msgid "Single Product"
+msgstr ""
+
+#: framework/configs/options.php:701 framework/functions/helpers.php:1606
+msgctxt "admin-view"
+msgid "Single Portfolio"
+msgstr ""
+
+#: framework/configs/options.php:723 framework/functions/helpers.php:1600
+msgctxt "admin-view"
+msgid "Archive Portfolio"
+msgstr ""
+
+#: framework/configs/options.php:734
+msgctxt "admin-view"
+msgid "Sidebars"
+msgstr ""
+
+#: framework/configs/options.php:743
+msgctxt "admin-view"
+msgid "Pages"
+msgstr ""
+
+#: framework/configs/options.php:748
+msgctxt "admin-view"
+msgid "Global Page Sidebar"
+msgstr ""
+
+#: framework/configs/options.php:749
+msgctxt "admin-view"
+msgid "Select sidebar that will display on all pages."
+msgstr ""
+
+#: framework/configs/options.php:757
+msgctxt "admin-view"
+msgid "Activate Global Sidebar For Pages"
+msgstr ""
+
+#: framework/configs/options.php:758
+msgctxt "admin-view"
+msgid ""
+"Turn on if you want to use the same sidebars on all pages. This option "
+"overrides the page options."
+msgstr ""
+
+#: framework/configs/options.php:773
+msgctxt "admin-view"
+msgid "Global Blog Post Sidebar"
+msgstr ""
+
+#: framework/configs/options.php:774
+msgctxt "admin-view"
+msgid "Select sidebar that will display on all blog posts."
+msgstr ""
+
+#: framework/configs/options.php:782
+msgctxt "admin-view"
+msgid "Activate Global Sidebar For Blog Posts"
+msgstr ""
+
+#: framework/configs/options.php:783
+msgctxt "admin-view"
+msgid ""
+"Turn on if you want to use the same sidebars on all blog posts. This option "
+"overrides the blog post options."
+msgstr ""
+
+#: framework/configs/options.php:793
+msgctxt "admin-view"
+msgid "Blog Archive"
+msgstr ""
+
+#: framework/configs/options.php:798
+msgctxt "admin-view"
+msgid "Global Blog Archive Sidebar"
+msgstr ""
+
+#: framework/configs/options.php:799
+msgctxt "admin-view"
+msgid "Select sidebar that will display on all post category & tag."
+msgstr ""
+
+#: framework/configs/options.php:807
+msgctxt "admin-view"
+msgid "Activate Global Sidebar For Blog Archive"
+msgstr ""
+
+#: framework/configs/options.php:808
+msgctxt "admin-view"
+msgid ""
+"Turn on if you want to use the same sidebars on all post category & tag. "
+"This option overrides the posts options."
+msgstr ""
+
+#: framework/configs/options.php:818
+msgctxt "admin-view"
+msgid "Search Page"
+msgstr ""
+
+#: framework/configs/options.php:823
+msgctxt "admin-view"
+msgid "Search Page Sidebar"
+msgstr ""
+
+#: framework/configs/options.php:824
+msgctxt "admin-view"
+msgid "Select sidebar that will display on the search results page."
+msgstr ""
+
+#: framework/configs/options.php:838
+msgctxt "admin-view"
+msgid "WooCommerce Archive"
+msgstr ""
+
+#: framework/configs/options.php:843
+msgctxt "admin-view"
+msgid "Global WooCommerce Archive Sidebar"
+msgstr ""
+
+#: framework/configs/options.php:844
+msgctxt "admin-view"
+msgid "Select sidebar that will display on all WooCommerce taxonomy."
+msgstr ""
+
+#: framework/configs/options.php:852
+msgctxt "admin-view"
+msgid "Activate Global Sidebar For Woocommerce Archive"
+msgstr ""
+
+#: framework/configs/options.php:853
+msgctxt "admin-view"
+msgid ""
+"Turn on if you want to use the same sidebars on all WooCommerce archive( "
+"shop,category,tag,search ). This option overrides the WooCommerce taxonomy "
+"options."
+msgstr ""
+
+#: framework/configs/options.php:863
+msgctxt "admin-view"
+msgid "WooCommerce Products"
+msgstr ""
+
+#: framework/configs/options.php:868
+msgctxt "admin-view"
+msgid "Global WooCommerce Product Sidebar"
+msgstr ""
+
+#: framework/configs/options.php:869
+msgctxt "admin-view"
+msgid "Select sidebar that will display on all WooCommerce products."
+msgstr ""
+
+#: framework/configs/options.php:877
+msgctxt "admin-view"
+msgid "Activate Global Sidebar For WooCommerce Products"
+msgstr ""
+
+#: framework/configs/options.php:878
+msgctxt "admin-view"
+msgid ""
+"Turn on if you want to use the same sidebars on all WooCommerce products. "
+"This option overrides the WooCommerce post options."
+msgstr ""
+
+#: framework/configs/options.php:923
+msgctxt "admin-view"
+msgid "Footer Bar"
+msgstr ""
+
+#: framework/configs/options.php:929
+msgctxt "admin-view"
+msgid "Enable Footer Bar?"
+msgstr ""
+
+#: framework/configs/options.php:931
+msgctxt "admin-view"
+msgid "Hide"
+msgstr ""
+
+#: framework/configs/options.php:939
+msgctxt "admin-view"
+msgid "Footer Bar Visible"
+msgstr ""
+
+#: framework/configs/options.php:940
+msgctxt "admin-view"
+msgid ""
+"The footer bar will display on the screen at its maximum width equal to this "
+"value"
+msgstr ""
+
+#: framework/configs/options.php:951
+msgctxt "admin-view"
+msgid "Header Footer Bar Component"
+msgstr ""
+
+#: framework/configs/options.php:952
+msgctxt "admin-view"
+msgid "Add Icon Component "
+msgstr ""
+
+#: framework/configs/options.php:959
+msgctxt "admin-view"
+msgid "Type"
+msgstr ""
+
+#: framework/configs/options.php:961
+msgctxt "admin-view"
+msgid "Dropdown Menu"
+msgstr ""
+
+#: framework/configs/options.php:963
+msgctxt "admin-view"
+msgid "Search box style 01"
+msgstr ""
+
+#: framework/configs/options.php:964
+msgctxt "admin-view"
+msgid "Cart Icon"
+msgstr ""
+
+#: framework/configs/options.php:965
+msgctxt "admin-view"
+msgid "Wishlist Icon"
+msgstr ""
+
+#: framework/configs/options.php:966
+msgctxt "admin-view"
+msgid "Compare Icon"
+msgstr ""
+
+#: framework/configs/options.php:972
+msgctxt "admin-view"
+msgid "Custom Icon"
+msgstr ""
+
+#: framework/configs/options.php:985
+msgctxt "admin-view"
+msgid "Link (URL)"
+msgstr ""
+
+#: framework/configs/options.php:991
+msgctxt "admin-view"
+msgid "Select the menu"
+msgstr ""
+
+#: framework/configs/options.php:1005
+msgctxt "admin-view"
+msgid "Extra CSS class for item"
+msgstr ""
+
+#: framework/configs/options.php:1013
+msgctxt "admin-view"
+msgid "Header Footer Bar Sticky"
+msgstr ""
+
+#: framework/configs/options.php:1016
+msgctxt "admin-view"
+msgid "Always Display"
+msgstr ""
+
+#: framework/configs/options.php:1017
+msgctxt "admin-view"
+msgid "Display when scroll up"
+msgstr ""
+
+#: framework/configs/options.php:1018
+msgctxt "admin-view"
+msgid "Display when scroll down"
+msgstr ""
+
+#: framework/configs/options.php:1029 framework/configs/options.php:1234
+msgctxt "admin-view"
+msgid "Blog"
+msgstr ""
+
+#: framework/configs/options.php:1038
+msgctxt "admin-view"
+msgid "General Blog"
+msgstr ""
+
+#: framework/configs/options.php:1044
+msgctxt "admin-view"
+msgid "Blog Page Layout"
+msgstr ""
+
+#: framework/configs/options.php:1073
+msgctxt "admin-view"
+msgid "[Blog] Header Transparency"
+msgstr ""
+
+#: framework/configs/options.php:1078
+msgctxt "admin-view"
+msgid "[Blog] Custom Main Space"
+msgstr ""
+
+#: framework/configs/options.php:1085
+msgctxt "admin-view"
+msgid ""
+"Turn on to show the Page Header bar for the assigned blog page in \"settings "
+"> reading\" or blog archive pages"
+msgstr ""
+
+#: framework/configs/options.php:1094
+msgctxt "admin-view"
+msgid "Blog Design"
+msgstr ""
+
+#: framework/configs/options.php:1095
+msgctxt "admin-view"
+msgid ""
+"Controls the layout for the assigned blog page in \"settings > reading\" or "
+"blog archive pages"
+msgstr ""
+
+#: framework/configs/options.php:1098
+msgctxt "admin-view"
+msgid "List Style 01"
+msgstr ""
+
+#: framework/configs/options.php:1099
+msgctxt "admin-view"
+msgid "List Style 02"
+msgstr ""
+
+#: framework/configs/options.php:1100
+msgctxt "admin-view"
+msgid "Grid Style 01"
+msgstr ""
+
+#: framework/configs/options.php:1101
+msgctxt "admin-view"
+msgid "Grid Style 02"
+msgstr ""
+
+#: framework/configs/options.php:1102
+msgctxt "admin-view"
+msgid "Grid Style 03"
+msgstr ""
+
+#: framework/configs/options.php:1103
+msgctxt "admin-view"
+msgid "Grid Style 04"
+msgstr ""
+
+#: framework/configs/options.php:1104
+msgctxt "admin-view"
+msgid "Grid Style 05"
+msgstr ""
+
+#: framework/configs/options.php:1110
+msgctxt "admin-view"
+msgid "Blog Post Columns"
+msgstr ""
+
+#: framework/configs/options.php:1111
+msgctxt "admin-view"
+msgid ""
+"Controls the amount of columns for the grid layout when using it for the "
+"assigned blog page in \"settings > reading\" or blog archive pages or search "
+"results page."
+msgstr ""
+
+#: framework/configs/options.php:1117
+msgctxt "admin-view"
+msgid "Blog Item Space"
+msgstr ""
+
+#: framework/configs/options.php:1123
+msgctxt "admin-view"
+msgid "Blog Image Height Mode"
+msgstr ""
+
+#: framework/configs/options.php:1124 framework/configs/options.php:2252
+msgctxt "admin-view"
+msgid ""
+"Sizing proportions for height and width. Select \"Original\" to scale image "
+"without cropping."
+msgstr ""
+
+#: framework/configs/options.php:1127 framework/configs/options.php:2255
+msgctxt "admin-view"
+msgid "1-1"
+msgstr ""
+
+#: framework/configs/options.php:1128 framework/configs/options.php:2256
+msgctxt "admin-view"
+msgid "Original"
+msgstr ""
+
+#: framework/configs/options.php:1129 framework/configs/options.php:2257
+msgctxt "admin-view"
+msgid "4:3"
+msgstr ""
+
+#: framework/configs/options.php:1130 framework/configs/options.php:2258
+msgctxt "admin-view"
+msgid "3:4"
+msgstr ""
+
+#: framework/configs/options.php:1131 framework/configs/options.php:2259
+msgctxt "admin-view"
+msgid "16:9"
+msgstr ""
+
+#: framework/configs/options.php:1132 framework/configs/options.php:2260
+msgctxt "admin-view"
+msgid "9:16"
+msgstr ""
+
+#: framework/configs/options.php:1133 framework/configs/options.php:1494
+#: framework/configs/options.php:2261
+msgctxt "admin-view"
+msgid "Custom"
+msgstr ""
+
+#: framework/configs/options.php:1141
+msgctxt "admin-view"
+msgid "Blog Image Height Custom"
+msgstr ""
+
+#: framework/configs/options.php:1143 framework/configs/options.php:2270
+msgctxt "admin-view"
+msgid "Enter custom height."
+msgstr ""
+
+#: framework/configs/options.php:1149
+msgctxt "admin-view"
+msgid "Blog Image Size"
+msgstr ""
+
+#: framework/configs/options.php:1158
+msgctxt "admin-view"
+msgid "Blog Excerpt Length"
+msgstr ""
+
+#: framework/configs/options.php:1159
+msgctxt "admin-view"
+msgid ""
+"Controls the number of words in the post excerpts for the assigned blog page "
+"in \"settings > reading\" or blog archive pages."
+msgstr ""
+
+#: framework/configs/options.php:1170
+msgctxt "admin-view"
+msgid "Enable Blog Masonry"
+msgstr ""
+
+#: framework/configs/options.php:1179
+msgctxt "admin-view"
+msgid "Pagination Type"
+msgstr ""
+
+#: framework/configs/options.php:1180
+msgctxt "admin-view"
+msgid ""
+"Controls the pagination type for the assigned blog page in \"settings > "
+"reading\" or blog pages."
+msgstr ""
+
+#: framework/configs/options.php:1182 framework/configs/options.php:1720
+msgctxt "admin-view"
+msgid "Pagination"
+msgstr ""
+
+#: framework/configs/options.php:1183 framework/configs/options.php:1721
+msgctxt "admin-view"
+msgid "Infinite Scroll"
+msgstr ""
+
+#: framework/configs/options.php:1184 framework/configs/options.php:1722
+msgctxt "admin-view"
+msgid "Load More Button"
+msgstr ""
+
+#: framework/configs/options.php:1195
+msgctxt "admin-view"
+msgid "Blog Single Post"
+msgstr ""
+
+#: framework/configs/options.php:1201
+msgctxt "admin-view"
+msgid "Single Page Layout"
+msgstr ""
+
+#: framework/configs/options.php:1221
+msgctxt "admin-view"
+msgid "[Post] Header Transparency"
+msgstr ""
+
+#: framework/configs/options.php:1226
+msgctxt "admin-view"
+msgid "[Single Post] Custom Main Space"
+msgstr ""
+
+#: framework/configs/options.php:1232
+msgctxt "admin-view"
+msgid "Page Header Title"
+msgstr ""
+
+#: framework/configs/options.php:1235
+msgctxt "admin-view"
+msgid "Post title"
+msgstr ""
+
+#: framework/configs/options.php:1242
+msgctxt "admin-view"
+msgid "Featured Image / Video on Single Blog Post"
+msgstr ""
+
+#: framework/configs/options.php:1243
+msgctxt "admin-view"
+msgid "Turn on to display featured images and videos on single blog posts."
+msgstr ""
+
+#: framework/configs/options.php:1249
+msgctxt "admin-view"
+msgid "Featured Image Size"
+msgstr ""
+
+#: framework/configs/options.php:1258
+msgctxt "admin-view"
+msgid "Previous/Next Pagination"
+msgstr ""
+
+#: framework/configs/options.php:1259
+msgctxt "admin-view"
+msgid ""
+"Turn on to display the previous/next post pagination for single blog posts."
+msgstr ""
+
+#: framework/configs/options.php:1267
+msgctxt "admin-view"
+msgid "Post Title"
+msgstr ""
+
+#: framework/configs/options.php:1268
+msgctxt "admin-view"
+msgid ""
+"Controls if the post title displays above or below the featured post image "
+"or is disabled."
+msgstr ""
+
+#: framework/configs/options.php:1270
+msgctxt "admin-view"
+msgid "Below"
+msgstr ""
+
+#: framework/configs/options.php:1271
+msgctxt "admin-view"
+msgid "Above"
+msgstr ""
+
+#: framework/configs/options.php:1272
+msgctxt "admin-view"
+msgid "Disabled"
+msgstr ""
+
+#: framework/configs/options.php:1279
+msgctxt "admin-view"
+msgid "Social Sharing Box"
+msgstr ""
+
+#: framework/configs/options.php:1280
+msgctxt "admin-view"
+msgid "Turn on to display the social sharing box."
+msgstr ""
+
+#: framework/configs/options.php:1287
+msgctxt "admin-view"
+msgid "Related Posts"
+msgstr ""
+
+#: framework/configs/options.php:1288
+msgctxt "admin-view"
+msgid "Turn on to display related posts."
+msgstr ""
+
+#: framework/configs/options.php:1294
+msgctxt "admin-view"
+msgid "Related Design"
+msgstr ""
+
+#: framework/configs/options.php:1307
+msgctxt "admin-view"
+msgid "Related Posts By"
+msgstr ""
+
+#: framework/configs/options.php:1310
+msgctxt "admin-view"
+msgid "Category"
+msgstr ""
+
+#: framework/configs/options.php:1311
+msgctxt "admin-view"
+msgid "Tag"
+msgstr ""
+
+#: framework/configs/options.php:1312
+msgctxt "admin-view"
+msgid "Category & Tag"
+msgstr ""
+
+#: framework/configs/options.php:1313
+msgctxt "admin-view"
+msgid "Random"
+msgstr ""
+
+#: framework/configs/options.php:1322
+msgctxt "admin-view"
+msgid "Maximum Related Posts"
+msgstr ""
+
+#: framework/configs/options.php:1331
+msgctxt "admin-view"
+msgid "Related post columns"
+msgstr ""
+
+#: framework/configs/options.php:1332
+msgctxt "admin-view"
+msgid "Controls the number of columns for the related posts"
+msgstr ""
+
+#: framework/configs/options.php:1340
+msgctxt "admin-view"
+msgid "Move Related Posts before footer"
+msgstr ""
+
+#: framework/configs/options.php:1349
+msgctxt "admin-view"
+msgid "Comments"
+msgstr ""
+
+#: framework/configs/options.php:1350
+msgctxt "admin-view"
+msgid "Turn on to display comments."
+msgstr ""
+
+#: framework/configs/options.php:1362
+msgctxt "admin-view"
+msgid "Shop"
+msgstr ""
+
+#: framework/configs/options.php:1377
+msgctxt "admin-view"
+msgid "WooCommerce Layout"
+msgstr ""
+
+#: framework/configs/options.php:1378
+msgctxt "admin-view"
+msgid ""
+"Controls the layout of shop page, product category, product tags and search "
+"page"
+msgstr ""
+
+#: framework/configs/options.php:1387
+msgctxt "admin-view"
+msgid "[Shop] Header Transparency"
+msgstr ""
+
+#: framework/configs/options.php:1409
+msgctxt "admin-view"
+msgid "Catalog Mode"
+msgstr ""
+
+#: framework/configs/options.php:1410
+msgctxt "admin-view"
+msgid "Turn on to disable the shopping functionality of WooCommerce."
+msgstr ""
+
+#: framework/configs/options.php:1417
+msgctxt "admin-view"
+msgid "Catalog Mode Price"
+msgstr ""
+
+#: framework/configs/options.php:1418
+msgctxt "admin-view"
+msgid "Turn on to do not show product price"
+msgstr ""
+
+#: framework/configs/options.php:1426
+msgctxt "admin-view"
+msgid "Advanced WooCommerce Filter"
+msgstr ""
+
+#: framework/configs/options.php:1427
+msgctxt "admin-view"
+msgid "Turn off/on advance shop filter"
+msgstr ""
+
+#: framework/configs/options.php:1434
+msgctxt "admin-view"
+msgid "Hide WooCommerce Toolbar"
+msgstr ""
+
+#: framework/configs/options.php:1435
+msgctxt "admin-view"
+msgid "Turn off/on WooCommerce Toolbar"
+msgstr ""
+
+#: framework/configs/options.php:1442
+msgctxt "admin-view"
+msgid "WooCommerce Product Grid / List View"
+msgstr ""
+
+#: framework/configs/options.php:1443
+msgctxt "admin-view"
+msgid ""
+"Turn on to display the grid/list toggle on the main shop page and archive "
+"shop pages."
+msgstr ""
+
+#: framework/configs/options.php:1449
+msgctxt "admin-view"
+msgid "Shop display as type"
+msgstr ""
+
+#: framework/configs/options.php:1450 framework/configs/options.php:1461
+msgctxt "admin-view"
+msgid "Controls the type display of product for the shop page"
+msgstr ""
+
+#: framework/configs/options.php:1453 framework/configs/options.php:2244
+msgctxt "admin-view"
+msgid "Grid"
+msgstr ""
+
+#: framework/configs/options.php:1454
+msgctxt "admin-view"
+msgid "List"
+msgstr ""
+
+#: framework/configs/options.php:1460
+msgctxt "admin-view"
+msgid "Grid Style"
+msgstr ""
+
+#: framework/configs/options.php:1475
+msgctxt "admin-view"
+msgid "WooCommerce Number of Product Category Columns"
+msgstr ""
+
+#: framework/configs/options.php:1476 framework/configs/options.php:1537
+#: framework/configs/options.php:1544 framework/configs/options.php:1551
+msgctxt "admin-view"
+msgid "Controls the number of columns for the main shop page"
+msgstr ""
+
+#: framework/configs/options.php:1483
+msgctxt "admin-view"
+msgid "Enable Shop Masonry"
+msgstr ""
+
+#: framework/configs/options.php:1484
+msgctxt "admin-view"
+msgid "Turn off/on Shop Masonry Mode"
+msgstr ""
+
+#: framework/configs/options.php:1490
+msgctxt "admin-view"
+msgid "Masonry Column Type"
+msgstr ""
+
+#: framework/configs/options.php:1493
+msgctxt "admin-view"
+msgid "Default"
+msgstr ""
+
+#: framework/configs/options.php:1501
+msgctxt "admin-view"
+msgid "Container Width"
+msgstr ""
+
+#: framework/configs/options.php:1502
+msgctxt "admin-view"
+msgid "This value will determine the number of items per row"
+msgstr ""
+
+#: framework/configs/options.php:1503 framework/configs/options.php:1520
+#: framework/configs/options.php:1529
+msgctxt "admin-view"
+msgid "Enter numeric only"
+msgstr ""
+
+#: framework/configs/options.php:1510
+msgctxt "admin-view"
+msgid "Masonry Product Image Size"
+msgstr ""
+
+#: framework/configs/options.php:1518
+msgctxt "admin-view"
+msgid "Item Width"
+msgstr ""
+
+#: framework/configs/options.php:1519
+msgctxt "admin-view"
+msgid "Set your product item default width"
+msgstr ""
+
+#: framework/configs/options.php:1527
+msgctxt "admin-view"
+msgid "Item Height"
+msgstr ""
+
+#: framework/configs/options.php:1528
+msgctxt "admin-view"
+msgid "Set your product item default height"
+msgstr ""
+
+#: framework/configs/options.php:1536 framework/configs/options.php:1543
+#: framework/configs/options.php:1550
+msgctxt "admin-view"
+msgid "WooCommerce Number of Product Columns"
+msgstr ""
+
+#: framework/configs/options.php:1558 framework/functions/helpers.php:1181
+#: framework/functions/helpers.php:1261 framework/functions/helpers.php:1367
+#: framework/functions/helpers.php:1490
+msgctxt "admin-view"
+msgid "Mobile"
+msgstr ""
+
+#: framework/configs/options.php:1579 framework/functions/helpers.php:1195
+#: framework/functions/helpers.php:1280 framework/functions/helpers.php:1388
+#: framework/functions/helpers.php:1504
+msgctxt "admin-view"
+msgid "Mobile Landscape"
+msgstr ""
+
+#: framework/configs/options.php:1600 framework/functions/helpers.php:1208
+#: framework/functions/helpers.php:1299 framework/functions/helpers.php:1409
+#: framework/functions/helpers.php:1518
+msgctxt "admin-view"
+msgid "Tablet"
+msgstr ""
+
+#: framework/configs/options.php:1626
+msgctxt "admin-view"
+msgid "Enable Custom Item Settings"
+msgstr ""
+
+#: framework/configs/options.php:1633
+msgctxt "admin-view"
+msgid "Add Item Sizes"
+msgstr ""
+
+#: framework/configs/options.php:1634
+msgctxt "admin-view"
+msgid "Add"
+msgstr ""
+
+#: framework/configs/options.php:1637 framework/configs/options.php:1646
+msgctxt "admin-view"
+msgid "1x Width + 1x Height"
+msgstr ""
+
+#: framework/configs/options.php:1647
+msgctxt "admin-view"
+msgid "Size Name"
+msgstr ""
+
+#: framework/configs/options.php:1652
+msgctxt "admin-view"
+msgid "Width"
+msgstr ""
+
+#: framework/configs/options.php:1653
+msgctxt "admin-view"
+msgid ""
+"it will occupy x width of base item width ( example: this item will be "
+"occupy 2x width of base width you need entered \"2\")"
+msgstr ""
+
+#: framework/configs/options.php:1656
+msgctxt "admin-view"
+msgid "0.5x width"
+msgstr ""
+
+#: framework/configs/options.php:1657
+msgctxt "admin-view"
+msgid "1x width"
+msgstr ""
+
+#: framework/configs/options.php:1658
+msgctxt "admin-view"
+msgid "1.5x width"
+msgstr ""
+
+#: framework/configs/options.php:1659
+msgctxt "admin-view"
+msgid "2x width"
+msgstr ""
+
+#: framework/configs/options.php:1660
+msgctxt "admin-view"
+msgid "2.5x width"
+msgstr ""
+
+#: framework/configs/options.php:1661
+msgctxt "admin-view"
+msgid "3x width"
+msgstr ""
+
+#: framework/configs/options.php:1662
+msgctxt "admin-view"
+msgid "3.5x width"
+msgstr ""
+
+#: framework/configs/options.php:1663
+msgctxt "admin-view"
+msgid "4x width"
+msgstr ""
+
+#: framework/configs/options.php:1669
+msgctxt "admin-view"
+msgid "Height"
+msgstr ""
+
+#: framework/configs/options.php:1670
+msgctxt "admin-view"
+msgid ""
+"it will occupy x height of base item height ( example: this item will be "
+"occupy 2x height of base height you need entered \"2\")"
+msgstr ""
+
+#: framework/configs/options.php:1673
+msgctxt "admin-view"
+msgid "0.5x height"
+msgstr ""
+
+#: framework/configs/options.php:1674
+msgctxt "admin-view"
+msgid "1x height"
+msgstr ""
+
+#: framework/configs/options.php:1675
+msgctxt "admin-view"
+msgid "1.5x height"
+msgstr ""
+
+#: framework/configs/options.php:1676
+msgctxt "admin-view"
+msgid "2x height"
+msgstr ""
+
+#: framework/configs/options.php:1677
+msgctxt "admin-view"
+msgid "2.5x height"
+msgstr ""
+
+#: framework/configs/options.php:1678
+msgctxt "admin-view"
+msgid "3x height"
+msgstr ""
+
+#: framework/configs/options.php:1679
+msgctxt "admin-view"
+msgid "3.5x height"
+msgstr ""
+
+#: framework/configs/options.php:1680
+msgctxt "admin-view"
+msgid "4x height"
+msgstr ""
+
+#: framework/configs/options.php:1690
+msgctxt "admin-view"
+msgid "Space between product items"
+msgstr ""
+
+#: framework/configs/options.php:1697
+msgctxt "admin-view"
+msgid "WooCommerce Number of Products per Page Allow"
+msgstr ""
+
+#: framework/configs/options.php:1698
+msgctxt "admin-view"
+msgid "Controls the number of products that display per page."
+msgstr ""
+
+#: framework/configs/options.php:1699
+msgctxt "admin-view"
+msgid "Comma-separated. ( i.e: 3,6,9)"
+msgstr ""
+
+#: framework/configs/options.php:1706
+msgctxt "admin-view"
+msgid "WooCommerce Number of Products per Page"
+msgstr ""
+
+#: framework/configs/options.php:1707
+msgctxt "admin-view"
+msgid "The value of field must be as one value of setting above"
+msgstr ""
+
+#: framework/configs/options.php:1717
+msgctxt "admin-view"
+msgid "WooCommerce Pagination Type"
+msgstr ""
+
+#: framework/configs/options.php:1718
+msgctxt "admin-view"
+msgid "Controls the pagination type for the assigned shop pages"
+msgstr ""
+
+#: framework/configs/options.php:1729
+msgctxt "admin-view"
+msgid "Load More Button Text"
+msgstr ""
+
+#: framework/configs/options.php:1736
+msgctxt "admin-view"
+msgid "WooCommerce Crossfade Image Effect"
+msgstr ""
+
+#: framework/configs/options.php:1737
+msgctxt "admin-view"
+msgid "Turn on to display the product crossfade image effect on the product."
+msgstr ""
+
+#: framework/configs/options.php:1744
+msgctxt "admin-view"
+msgid "WooCommerce Show Ratings"
+msgstr ""
+
+#: framework/configs/options.php:1745
+msgctxt "admin-view"
+msgid ""
+"Turn on to display the ratings on the main shop page and archive shop pages."
+msgstr ""
+
+#: framework/configs/options.php:1752
+msgctxt "admin-view"
+msgid "WooCommerce Show Add Cart Button"
+msgstr ""
+
+#: framework/configs/options.php:1759
+msgctxt "admin-view"
+msgid "WooCommerce Show Quick View Button"
+msgstr ""
+
+#: framework/configs/options.php:1766
+msgctxt "admin-view"
+msgid "WooCommerce Show Wishlist Button"
+msgstr ""
+
+#: framework/configs/options.php:1773
+msgctxt "admin-view"
+msgid "WooCommerce Show Compare Button"
+msgstr ""
+
+#: framework/configs/options.php:1784
+msgctxt "admin-view"
+msgid "Product Page"
+msgstr ""
+
+#: framework/configs/options.php:1790
+msgctxt "admin-view"
+msgid "Product Page Layout"
+msgstr ""
+
+#: framework/configs/options.php:1791
+msgctxt "admin-view"
+msgid "Controls the layout for detail product page"
+msgstr ""
+
+#: framework/configs/options.php:1800
+msgctxt "admin-view"
+msgid "[Product] Header Transparency"
+msgstr ""
+
+#: framework/configs/options.php:1820
+msgctxt "admin-view"
+msgid "Product Page Design"
+msgstr ""
+
+#: framework/configs/options.php:1836
+msgctxt "admin-view"
+msgid "Ajax Add to Cart"
+msgstr ""
+
+#: framework/configs/options.php:1837
+msgctxt "admin-view"
+msgid "Support Ajax Add to cart for all types of products"
+msgstr ""
+
+#: framework/configs/options.php:1844
+msgctxt "admin-view"
+msgid "Move WooCommerce Tabs To Bottom"
+msgstr ""
+
+#: framework/configs/options.php:1851
+msgctxt "admin-view"
+msgid "Enable WooCommerce Zoom"
+msgstr ""
+
+#: framework/configs/options.php:1858
+msgctxt "admin-view"
+msgid "Enable WooCommerce LightBox"
+msgstr ""
+
+#: framework/configs/options.php:1865
+msgid "Hide Breadcrumbs"
+msgstr ""
+
+#: framework/configs/options.php:1866 framework/configs/options.php:1874
+msgid "In Page Header Bar"
+msgstr ""
+
+#: framework/configs/options.php:1873
+msgid "Hide Page Header"
+msgstr ""
+
+#: framework/configs/options.php:1881
+msgid "Hide Product Title"
+msgstr ""
+
+#: framework/configs/options.php:1887
+msgctxt "admin-view"
+msgid "Product gallery columns"
+msgstr ""
+
+#: framework/configs/options.php:1894
+msgctxt "admin-view"
+msgid "Product Sharing Option"
+msgstr ""
+
+#: framework/configs/options.php:1895
+msgctxt "admin-view"
+msgid "Turn on to show social sharing on the product page"
+msgstr ""
+
+#: framework/configs/options.php:1902
+msgctxt "admin-view"
+msgid "WooCommerce Related Products"
+msgstr ""
+
+#: framework/configs/options.php:1903
+msgctxt "admin-view"
+msgid "Turn on to show related products on the product page"
+msgstr ""
+
+#: framework/configs/options.php:1909
+msgctxt "admin-view"
+msgid "WooCommerce Related Title"
+msgstr ""
+
+#: framework/configs/options.php:1915
+msgctxt "admin-view"
+msgid "WooCommerce Related Sub Title"
+msgstr ""
+
+#: framework/configs/options.php:1921
+msgctxt "admin-view"
+msgid "WooCommerce Related Product Number of Columns"
+msgstr ""
+
+#: framework/configs/options.php:1922
+msgctxt "admin-view"
+msgid "Controls the number of columns for the related"
+msgstr ""
+
+#: framework/configs/options.php:1930
+msgctxt "admin-view"
+msgid "WooCommerce Up-sells Products"
+msgstr ""
+
+#: framework/configs/options.php:1931
+msgctxt "admin-view"
+msgid "Turn on to show Up-sells products on the product page"
+msgstr ""
+
+#: framework/configs/options.php:1937
+msgctxt "admin-view"
+msgid "WooCommerce Up-sells Title"
+msgstr ""
+
+#: framework/configs/options.php:1943
+msgctxt "admin-view"
+msgid "WooCommerce Up-sells Sub Title"
+msgstr ""
+
+#: framework/configs/options.php:1949 framework/configs/options.php:2073
+msgctxt "admin-view"
+msgid "WooCommerce Up-sells Product Number of Columns"
+msgstr ""
+
+#: framework/configs/options.php:1950 framework/configs/options.php:2074
+msgctxt "admin-view"
+msgid "Controls the number of columns for the Up-sells"
+msgstr ""
+
+#: framework/configs/options.php:1958
+msgctxt "admin-view"
+msgid "Custom Tabs Detail Page"
+msgstr ""
+
+#: framework/configs/options.php:1959
+msgctxt "admin-view"
+msgid "Turn on to show custom tabs on the product page"
+msgstr ""
+
+#: framework/configs/options.php:1965
+msgctxt "admin-view"
+msgid "Custom Tabs"
+msgstr ""
+
+#: framework/configs/options.php:1972
+msgctxt "admin-view"
+msgid "Tab Title"
+msgstr ""
+
+#: framework/configs/options.php:1977
+msgctxt "admin-view"
+msgid "Tab Content"
+msgstr ""
+
+#: framework/configs/options.php:1982 framework/configs/options.php:2035
+msgctxt "admin-view"
+msgid "Custom CSS class name for this block"
+msgstr ""
+
+#: framework/configs/options.php:1990
+msgctxt "admin-view"
+msgid "Enable Custom Block on Product Details Page"
+msgstr ""
+
+#: framework/configs/options.php:1996
+msgctxt "admin-view"
+msgid "Custom Block"
+msgstr ""
+
+#: framework/configs/options.php:1997
+msgctxt "admin-view"
+msgid "Display custom block on the product page"
+msgstr ""
+
+#: framework/configs/options.php:2004
+msgctxt "admin-view"
+msgid "Title"
+msgstr ""
+
+#: framework/configs/options.php:2009
+msgctxt "admin-view"
+msgid "Position to display"
+msgstr ""
+
+#: framework/configs/options.php:2012
+msgctxt "admin-view"
+msgid "Select Position"
+msgstr ""
+
+#: framework/configs/options.php:2013
+msgctxt "admin-view"
+msgid "After Cart Form"
+msgstr ""
+
+#: framework/configs/options.php:2014
+msgctxt "admin-view"
+msgid "After Product Meta"
+msgstr ""
+
+#: framework/configs/options.php:2015
+msgctxt "admin-view"
+msgid "After Product Price"
+msgstr ""
+
+#: framework/configs/options.php:2016
+msgctxt "admin-view"
+msgid "After Product Title"
+msgstr ""
+
+#: framework/configs/options.php:2017
+msgctxt "admin-view"
+msgid "After Product Description"
+msgstr ""
+
+#: framework/configs/options.php:2018
+msgctxt "admin-view"
+msgid "Beside Product Summary"
+msgstr ""
+
+#: framework/configs/options.php:2019
+msgctxt "admin-view"
+msgid "Before WooCommerce Tabs"
+msgstr ""
+
+#: framework/configs/options.php:2020
+msgctxt "admin-view"
+msgid "After WooCommerce Tabs"
+msgstr ""
+
+#: framework/configs/options.php:2021
+msgctxt "admin-view"
+msgid "After Product Related"
+msgstr ""
+
+#: framework/configs/options.php:2022
+msgctxt "admin-view"
+msgid "After Product Up-Sells"
+msgstr ""
+
+#: framework/configs/options.php:2023
+msgctxt "admin-view"
+msgid "Before Main Content"
+msgstr ""
+
+#: framework/configs/options.php:2024
+msgctxt "admin-view"
+msgid "After Main Content"
+msgstr ""
+
+#: framework/configs/options.php:2030
+msgctxt "admin-view"
+msgid "Content"
+msgstr ""
+
+#: framework/configs/options.php:2047
+msgctxt "admin-view"
+msgid "Cart Page"
+msgstr ""
+
+#: framework/configs/options.php:2054
+msgctxt "admin-view"
+msgid "WooCommerce Cross-sells Products"
+msgstr ""
+
+#: framework/configs/options.php:2055
+msgctxt "admin-view"
+msgid "Turn on to show Cross-sells products on the product page"
+msgstr ""
+
+#: framework/configs/options.php:2061
+msgctxt "admin-view"
+msgid "WooCommerce Cross-sells Title"
+msgstr ""
+
+#: framework/configs/options.php:2067
+msgctxt "admin-view"
+msgid "WooCommerce Cross-sells Sub Title"
+msgstr ""
+
+#: framework/configs/options.php:2086
+msgctxt "admin-view"
+msgid "Wishlist"
+msgstr ""
+
+#: framework/configs/options.php:2092
+msgctxt "admin-view"
+msgid "Wishlist Page"
+msgstr ""
+
+#: framework/configs/options.php:2094
+msgctxt "admin-view"
+msgid "The content of page must be contain [la_wishlist] shortcode"
+msgstr ""
+
+#: framework/configs/options.php:2098 framework/configs/options.php:2126
+msgctxt "admin-view"
+msgid "Select a page"
+msgstr ""
+
+#: framework/configs/options.php:2114
+msgctxt "admin-view"
+msgid "Compare"
+msgstr ""
+
+#: framework/configs/options.php:2120
+msgctxt "admin-view"
+msgid "Compare Page"
+msgstr ""
+
+#: framework/configs/options.php:2122
+msgctxt "admin-view"
+msgid "The content of page must be contain [la_compare] shortcode"
+msgstr ""
+
+#: framework/configs/options.php:2131
+msgctxt "admin-view"
+msgid "Fields to show"
+msgstr ""
+
+#: framework/configs/options.php:2132
+msgctxt "admin-view"
+msgid "Select the fields to show in the comparison table"
+msgstr ""
+
+#: framework/configs/options.php:2145
+msgctxt "admin-view"
+msgid "Portfolio"
+msgstr ""
+
+#: framework/configs/options.php:2154
+msgctxt "admin-view"
+msgid "Label Setting"
+msgstr ""
+
+#: framework/configs/options.php:2161
+msgctxt "admin-view"
+msgid "Portfolio Name"
+msgstr ""
+
+#: framework/configs/options.php:2167
+msgctxt "admin-view"
+msgid "Portfolio Singular Name"
+msgstr ""
+
+#: framework/configs/options.php:2173
+msgctxt "admin-view"
+msgid "Portfolio Slug"
+msgstr ""
+
+#: framework/configs/options.php:2174 framework/configs/options.php:2195
+msgctxt "admin-view"
+msgid ""
+"When you change the portfolio slug, please remember go to Setting -> "
+"Permalinks and click to Save Changes button once again"
+msgstr ""
+
+#: framework/configs/options.php:2181
+msgctxt "admin-view"
+msgid "Portfolio Category Name"
+msgstr ""
+
+#: framework/configs/options.php:2188
+msgctxt "admin-view"
+msgid "Portfolio Category Singular Name"
+msgstr ""
+
+#: framework/configs/options.php:2194
+msgctxt "admin-view"
+msgid "Portfolio Category Slug"
+msgstr ""
+
+#: framework/configs/options.php:2205
+msgctxt "admin-view"
+msgid "General Setting"
+msgstr ""
+
+#: framework/configs/options.php:2211
+msgctxt "admin-view"
+msgid "Archive Portfolio Layout"
+msgstr ""
+
+#: framework/configs/options.php:2212
+msgctxt "admin-view"
+msgid "Controls the layout of archive portfolio page"
+msgstr ""
+
+#: framework/configs/options.php:2220 framework/configs/options.php:2336
+msgctxt "admin-view"
+msgid "[Portfolio] Header Transparency"
+msgstr ""
+
+#: framework/configs/options.php:2228
+msgctxt "admin-view"
+msgid ""
+"[Portfolio] Turn on to have the main area display at 100% width according to "
+"the window size. Turn off to follow site width."
+msgstr ""
+
+#: framework/configs/options.php:2240
+msgctxt "admin-view"
+msgid "Display Type as"
+msgstr ""
+
+#: framework/configs/options.php:2241
+msgctxt "admin-view"
+msgid "Controls the type display of portfolio for the archive page"
+msgstr ""
+
+#: framework/configs/options.php:2245
+msgctxt "admin-view"
+msgid "Masonry"
+msgstr ""
+
+#: framework/configs/options.php:2251
+msgctxt "admin-view"
+msgid "Portfolio Image Height Mode"
+msgstr ""
+
+#: framework/configs/options.php:2268
+msgctxt "admin-view"
+msgid "Portfolio Image Height Custom"
+msgstr ""
+
+#: framework/configs/options.php:2275
+msgctxt "admin-view"
+msgid "Item Space"
+msgstr ""
+
+#: framework/configs/options.php:2276
+msgctxt "admin-view"
+msgid "Select gap between item in grids"
+msgstr ""
+
+#: framework/configs/options.php:2282
+msgctxt "admin-view"
+msgid "Select Style"
+msgstr ""
+
+#: framework/configs/options.php:2285
+msgctxt "admin-view"
+msgid "Style 01"
+msgstr ""
+
+#: framework/configs/options.php:2286
+msgctxt "admin-view"
+msgid "Style 02"
+msgstr ""
+
+#: framework/configs/options.php:2287
+msgctxt "admin-view"
+msgid "Style 03"
+msgstr ""
+
+#: framework/configs/options.php:2288
+msgctxt "admin-view"
+msgid "Style 04"
+msgstr ""
+
+#: framework/configs/options.php:2293
+msgctxt "admin-view"
+msgid "Portfolio Column"
+msgstr ""
+
+#: framework/configs/options.php:2299
+msgctxt "admin-view"
+msgid "Total Portfolio will be display in a page"
+msgstr ""
+
+#: framework/configs/options.php:2308
+msgctxt "admin-view"
+msgid "Portfolio Thumbnail size"
+msgstr ""
+
+#: framework/configs/options.php:2320
+msgctxt "admin-view"
+msgid "Portfolio Single"
+msgstr ""
+
+#: framework/configs/options.php:2326
+msgctxt "admin-view"
+msgid "Single Portfolio Layout"
+msgstr ""
+
+#: framework/configs/options.php:2327
+msgctxt "admin-view"
+msgid "Controls the layout of portfolio detail page"
+msgstr ""
+
+#: framework/configs/options.php:2347
+msgctxt "admin-view"
+msgid "404 Page"
+msgstr ""
+
+#: framework/configs/options.php:2354
+msgctxt "admin-view"
+msgid "[404] Header Transparency"
+msgstr ""
+
+#: framework/configs/options.php:2360
+msgctxt "admin-view"
+msgid "Leaving empty content to inherit from theme"
+msgstr ""
+
+#: framework/configs/options.php:2361
+msgctxt "admin-view"
+msgid "Custom 404 Page Content"
+msgstr ""
+
+#: framework/functions/helpers.php:562
+msgctxt "front-view"
+msgid "Share this post on Facebook"
+msgstr ""
+
+#: framework/functions/helpers.php:568
+msgctxt "front-view"
+msgid "Share this post on Twitter"
+msgstr ""
+
+#: framework/functions/helpers.php:574
+msgctxt "front-view"
+msgid "Share this post on Reddit"
+msgstr ""
+
+#: framework/functions/helpers.php:580
+msgctxt "front-view"
+msgid "Share this post on Linked In"
+msgstr ""
+
+#: framework/functions/helpers.php:586
+msgctxt "front-view"
+msgid "Share this post on Tumblr"
+msgstr ""
+
+#: framework/functions/helpers.php:592
+msgctxt "front-view"
+msgid "Share this post on Pinterest"
+msgstr ""
+
+#: framework/functions/helpers.php:598
+msgctxt "front-view"
+msgid "LINE it!"
+msgstr ""
+
+#: framework/functions/helpers.php:605
+msgctxt "front-view"
+msgid "Share this post on VK"
+msgstr ""
+
+#: framework/functions/helpers.php:611
+msgctxt "front-view"
+msgid "Share via Whatsapp"
+msgstr ""
+
+#: framework/functions/helpers.php:617
+msgctxt "front-view"
+msgid "Share via Telegram"
+msgstr ""
+
+#: framework/functions/helpers.php:623
+msgctxt "front-view"
+msgid "Share this post via Email"
+msgstr ""
+
+#: framework/functions/helpers.php:662
+msgid "Load More"
+msgstr ""
+
+#: framework/functions/helpers.php:994
+msgid "Pingback:"
+msgstr ""
+
+#: framework/functions/helpers.php:994
+msgid "(Edit)"
+msgstr ""
+
+#: framework/functions/helpers.php:1013
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: framework/functions/helpers.php:1021
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions/helpers.php:1031
+msgid "edit"
+msgstr ""
+
+#: framework/functions/helpers.php:1056
+msgid "Name (required)"
+msgstr ""
+
+#: framework/functions/helpers.php:1058
+msgid "Email"
+msgstr ""
+
+#: framework/functions/helpers.php:1060
+msgid "Website"
+msgstr ""
+
+#: framework/functions/helpers.php:1108
+msgid "Full"
+msgstr ""
+
+#: framework/functions/helpers.php:1153
+msgctxt "front-view"
+msgid "Posted in"
+msgstr ""
+
+#: framework/functions/helpers.php:1222 framework/functions/helpers.php:1318
+#: framework/functions/helpers.php:1430 framework/functions/helpers.php:1532
+msgctxt "admin-view"
+msgid "Laptop"
+msgstr ""
+
+#: framework/functions/helpers.php:1236 framework/functions/helpers.php:1337
+#: framework/functions/helpers.php:1451 framework/functions/helpers.php:1545
+msgctxt "admin-view"
+msgid "Desktop"
+msgstr ""
+
+#: framework/functions/helpers.php:1567
+msgctxt "admin-view"
+msgid "For page header bar"
+msgstr ""
+
+#: framework/functions/helpers.php:1577
+msgctxt "admin-view"
+msgid ""
+"Turn on to override all setting page header bar of WooCommerce Settings ( "
+"Shop page / Product Category / Product Tags and Search page )"
+msgstr ""
+
+#: framework/functions/helpers.php:1578 framework/functions/helpers.php:1584
+#: framework/functions/helpers.php:1590 framework/functions/helpers.php:1596
+#: framework/functions/helpers.php:1602 framework/functions/helpers.php:1608
+msgctxt "admin-view"
+msgid "This option will not work with these pages were overwritten"
+msgstr ""
+
+#: framework/functions/helpers.php:1583
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Single Product"
+msgstr ""
+
+#: framework/functions/helpers.php:1589
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Post pages"
+msgstr ""
+
+#: framework/functions/helpers.php:1594
+msgctxt "admin-view"
+msgid "Blog Post"
+msgstr ""
+
+#: framework/functions/helpers.php:1595
+msgctxt "admin-view"
+msgid ""
+"Turn on to override all setting page header bar of Blog/Tag/Category pages"
+msgstr ""
+
+#: framework/functions/helpers.php:1601
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Archive Portfolio"
+msgstr ""
+
+#: framework/functions/helpers.php:1607
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Single Portfolio"
+msgstr ""
+
+#: framework/functions/helpers.php:1628 framework/functions/helpers.php:1633
+msgctxt "admin-view"
+msgid "Do not display"
+msgstr ""
+
+#: framework/functions/helpers.php:1644
+msgctxt "admin-view"
+msgid "Select Layout"
+msgstr ""
+
+#: framework/functions/helpers.php:1653
+msgctxt "admin-view"
+msgid "Page Header Border"
+msgstr ""
+
+#: framework/functions/helpers.php:1661
+msgctxt "admin-view"
+msgid "Page Header Background"
+msgstr ""
+
+#: framework/functions/helpers.php:1678
+msgctxt "admin-view"
+msgid "Page Header Spacing"
+msgstr ""
+
+#: framework/functions/helpers.php:1686
+msgctxt "admin-view"
+msgid "Heading Fonts"
+msgstr ""
+
+#: framework/functions/helpers.php:1698
+msgctxt "admin-view"
+msgid "Breadcrumb Fonts"
+msgstr ""
+
+#: framework/functions/helpers.php:1711
+msgctxt "admin-view"
+msgid "Heading Color"
+msgstr ""
+
+#: framework/functions/helpers.php:1720
+msgctxt "admin-view"
+msgid "Text Color"
+msgstr ""
+
+#: framework/functions/helpers.php:1729
+msgctxt "admin-view"
+msgid "Link Color"
+msgstr ""
+
+#: framework/functions/helpers.php:1738
+msgctxt "admin-view"
+msgid "Link Hover Color"
+msgstr ""
+
+#: framework/functions/helpers.php:1749
+msgctxt "admin-view"
+msgid "Enable Override"
+msgstr ""
+
+#: framework/functions/helpers.php:1761
+msgctxt "admin-view"
+msgid "Heading Tag"
+msgstr ""
+
+#: framework/functions/helpers.php:2066
+msgid "Recent Posts"
+msgstr ""
+
+#: framework/functions/helpers.php:2079
+msgid "Search Results Found"
+msgstr ""
+
+#: framework/functions/helpers.php:2101
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: framework/functions/helpers.php:2106
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: framework/functions/helpers.php:2106
+msgctxt "Page title monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: framework/functions/helpers.php:2111
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: framework/functions/helpers.php:2111
+msgctxt "Page title yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/functions/helpers.php:2133
+msgid "404: Page Not Found"
+msgstr ""
+
+#: framework/functions/helpers.php:2151
+msgid "Blog"
+msgstr ""
+
+#: framework/functions/helpers.php:2345
+msgid "Guest"
+msgstr ""
+
+#: partials/footer/searchform-overlay.php:8
+msgctxt "front-view"
+msgid "Start typing and press Enter to search"
+msgstr ""
+
+#: partials/footer/searchform-overlay.php:21
+msgctxt "front-end"
+msgid "View more"
+msgstr ""
+
+#: partials/footer/cart-overlay.php:10
+msgctxt "front-view"
+msgid "Shopping Cart"
+msgstr ""
+
+#: partials/page/article.php:20 partials/singular/layout-post.php:56
+#: partials/singular/layout.php:19
+msgid "Pages:"
+msgstr ""
+
+#: partials/singular/layout-post.php:64
+msgctxt "front-view"
+msgid "Tags:"
+msgstr ""
+
+#: partials/singular/layout-post.php:68
+msgctxt "front-view"
+msgid "Share with"
+msgstr ""
+
+#: partials/singular/layout-post.php:80
+msgid "Next Post"
+msgstr ""
+
+#: partials/singular/layout-post.php:81
+msgid "Prev Post"
+msgstr ""
+
+#: partials/singular/related-posts.php:83
+msgid "Related News"
+msgstr ""
+
+#: partials/singular/related-posts.php:132 partials/entry/layout.php:51
+msgid "Read More"
+msgstr ""
+
+#: partials/entry/meta.php:8 partials/entry/meta-single.php:8
+#: partials/elementor/lastudio-posts/global/loop-item.php:69
+msgid "by "
+msgstr ""
+
+#: partials/entry/meta.php:22 partials/entry/meta-single.php:22
+#: partials/elementor/lastudio-posts/global/loop-item.php:88
+msgid "0 comment"
+msgstr ""
+
+#: partials/entry/meta.php:22 partials/entry/meta-single.php:22
+#: partials/elementor/lastudio-posts/global/loop-item.php:88
+msgid "1 comment"
+msgstr ""
+
+#. Name of the theme
+msgid "Skudmart"
+msgstr ""
+
+#. Description of the theme
+msgid "SkudMart – Clean, Minimal WooCommerce Theme"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themeforest.net/user/LA-Studio/portfolio?ref=LA-Studio"
+msgstr ""
+
+#. Author of the theme
+msgid "LA Studio"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/LA-Studio?ref=LA-Studio"
+msgstr ""

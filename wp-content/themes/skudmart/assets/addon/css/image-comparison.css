@@ -1,0 +1,164 @@
+.lastudio-image-comparison{
+  width: 100%;
+  position: relative
+}
+.lastudio-image-comparison__instance{
+  width: 100%;
+  position: relative;
+  overflow: hidden
+}
+.lastudio-image-comparison__instance:not(.slick-initialized){
+  display: none
+}
+.lastudio-image-comparison .lastudio-arrow{
+  position: absolute;
+  top: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 99;
+  transition: all 200ms linear
+}
+.lastudio-image-comparison .lastudio-arrow:before{
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+  transition: all 200ms linear
+}
+.lastudio-image-comparison .lastudio-arrow.prev-arrow{
+  left: 0
+}
+.lastudio-image-comparison .lastudio-arrow.next-arrow{
+  right: 0
+}
+.lastudio-image-comparison .lastudio-slick-dots{
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  z-index: 99
+}
+.lastudio-image-comparison .lastudio-slick-dots li{
+  padding: 5px;
+  margin: 0;
+  list-style: none
+}
+.lastudio-image-comparison .lastudio-slick-dots li span{
+  display: block;
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  padding: 0;
+  text-indent: 10em;
+  overflow: hidden;
+  transition: all 200ms linear
+}
+.lastudio-image-comparison .lastudio-slick-dots li span:before{
+  display: none
+}
+.lastudio-image-comparison .juxtapose{
+  margin: 0 auto;
+  max-width: 100%
+}
+.lastudio-image-comparison .juxtapose .jx-image{
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end
+}
+.lastudio-image-comparison .juxtapose .jx-image img{
+  top: 0
+}
+.lastudio-image-comparison .juxtapose .jx-image .jx-label{
+  float: none;
+  left: auto;
+  right: auto
+}
+.lastudio-image-comparison .juxtapose .jx-image.jx-left{
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start
+}
+.lastudio-image-comparison .juxtapose .jx-image.jx-right{
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end
+}
+.lastudio-image-comparison .juxtapose .jx-handle{
+  width: 40px;
+  margin: 0;
+  margin-left: -20px
+}
+.lastudio-image-comparison .juxtapose .jx-handle .jx-arrow{
+  display: none
+}
+.lastudio-image-comparison .juxtapose .jx-handle .jx-control{
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 40px;
+  background: none;
+  margin: 0;
+  z-index: 1
+}
+.lastudio-image-comparison .juxtapose .jx-handle .jx-control:before{
+  width: 3px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: white;
+  content: ''
+}
+.lastudio-image-comparison .juxtapose .jx-handle .jx-controller{
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  direction: ltr
+}
+.lastudio-image-comparison .juxtapose .jx-handle .jx-controller i{
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center
+}

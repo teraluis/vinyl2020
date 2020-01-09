@@ -1,0 +1,116 @@
+/*------------------------------------------------------------------
+Woo Responsive
+-------------------------------------------------------------------*/
+
+@media(max-width: 1200px){
+
+  .products-list .product_item .product_item--info{
+    padding-left: 30px;
+  }
+  .products-grid-4 .product_item .product_item--inner {
+    padding: 0;
+    border: none;
+  }
+}
+
+@media(max-width: 800px){
+  .products-list .product_item .item--excerpt{
+    font-size: 12px;
+  }
+  .products-grid .button{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin: 3px;
+    &.quickview{
+      display: none;
+    }
+  }
+  .products-grid-5 .button{
+    line-height: 32px;
+  }
+}
+
+@media(max-width: 767px){
+  .product_item .product_item--info{
+    font-size: 12px;
+  }
+  .products-grid-6 .product_item .product_item--info {
+    position: static;
+    visibility: inherit;
+    display: block;
+    color: $secondary-color;
+    transform: none;
+  }
+  .products-grid-6 .product_item .product_item--info-inner {
+    padding: 0;
+    text-transform: none;
+    opacity: 1;
+    transform: none;
+  }
+  .products-grid-6 .product_item--info-action .button {
+    background-color: $secondary-color;
+    opacity: 1;
+    color: #fff;
+    transform: none;
+  }
+  .products-list:not(.products-list-mini){
+    .product_item{
+      .product_item--thumbnail {
+        width: 100%;
+        .quickview {
+          display: none;
+        }
+      }
+      .product_item--title {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .product_item--info{
+        padding: 20px 0 0;
+        width: 100%;
+      }
+      .price{
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .wc-toolbar button{
+    margin-left: 10px;
+  }
+  .lasf-custom-dropdown button:after {
+    font-size: 10px;
+    right: 6px;
+  }
+}
+
+@media(max-width: 600px){
+  .wc-toolbar .lasf-custom-dropdown button {
+    padding: 6px 20px 6px 10px;
+    font-size: 13px;
+  }
+  .wc-toolbar .wc-view-toggle{
+    float: right;
+    margin-top: 5px;
+  }
+  .wc-toolbar .wc-toolbar-right {
+    width: 100%;
+  }
+  .wc-toolbar .lasf-custom-dropdown {
+    margin: 0;
+  }
+  .wc-toolbar .lasf-custom-dropdown.wc-view-count {
+    float: right;
+  }
+
+  .wc-toolbar.wc-toolbar-top {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .wc-toolbar .woocommerce-result-count {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+}

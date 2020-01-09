@@ -1,0 +1,17 @@
+13 décembre 2017 - Version 1.2
+[Maj] Prise en compte des filtres sur les éléments bancaires (TPE, code société, Clé) en retour de banque. Permet de gérer plusieurs contrats depuis la passerelle. Ajout d'un exemple de filtre dans les instructions.
+
+3 avril 2017 - Version 1.1
+[Maj] Gestion des méthodes dépréciées de WooCommerce 3.0.
+
+2 décembre 2016 - Version 1.0.3
+[New] Ajout des filtres monetico_change_devise et monetico_change_langue pour permettre la modification de la devise et de la langue sans passer par une extension de traduction. 
+
+17 novembre 2016 - Version 1.0.2
+[Fix] Remplacement de get_bloginfo('wpurl') par get_bloginfo('url') pour les sites installés dans un dossier. 
+
+7 novembre 2016 - Version 1.0.1
+[New] Gestion des statuts sous la forme d'un tableau sur la page remerciement et filtrage de ce tableau pour permettre l'ajout de statuts personnalisés, comme par exemple WooCommerce Deposit et son statut partially-paid.
+
+12 octobre 2015 - Version 1.0
+Version initiale de la passerelle de paiement. Passerelle adapatée et améliorée de la passerelle CMCIC suite au changement d'identité vers Monetico Paiement.

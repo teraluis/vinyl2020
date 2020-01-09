@@ -1,0 +1,108 @@
+Installation
+------------
+
+Dans votre tableau de bord WordPress, rendez-vous dans l'onglet Extensions puis cliquez sur Ajouter. Choisissez l'option Mettre une extension en ligne puis cliquez sur le bouton parcourir pour sélectionner l'extension depuis votre disque dur. Cliquez sur Installer maintenant pour lancer l'installation. Activez l'extension à la fin de l'installation.
+
+Paramétrages
+------------
+
+Si vous ne souhaitez pas vous lancer dans l'installation et le paramétrage de votre solution bancaire et de cette passerelle de paiement, vous pouvez nous confier cette tâche. Plus d'informations à cette adresse : http://www.absoluteweb.net/boutique/installation-parametrage-test-passerelle-paiement/
+
+Pour rendre fonctionnelle votre solution bancaire, vous devez communiquer par email au service technique de la banque l'URL de retour automatique (CGI2), celle-ci est http://www.votre-site.fr/?wc-api=WC_Gateway_Monetico (remplacer le nom de domaine par le votre). Attention à ne pas faire d'erreur lors de la transmission de l'URL (majuscules, minuscules, tirets, underscore). Attendez le retour de Monetico pour effectuer vos tests.
+
+Pour paramétrer votre passerelle de paiement Monetico, rendez-vous dans l'onglet WooCommerce > Paramètres, cliquez sur l'onglet Commande (WooCommerce 2.1+) ou Passerelles de Paiement (WooCommerce 2.0+). La passerelle dont l'ID est monetico doit être présente dans la liste des passerelles.
+Dans le sous-menu en haut de page, cliquez sur Monetico pour accéder aux paramètres de la passerelle.
+
+Cochez "Activer le paiement Monetico" pour le rendre disponible à vos clients lors du règlement de leurs commandes.
+Adaptez le titre, le message et l'icône de paiement selon vos préférences. Ces trois éléments sont affichés au client lors du choix de son mode de paiement.
+Sélectionnez le mode d'utilisation de la passerelle, Test ou Production. Trois tests réussis sont nécessaire avant de pouvoir demander le passage en production auprès de Monetico Paiement.
+Renseignez la clé sécurisée, le numéro de TPE et le code société qui sont des paramètres transmises par Monetico Paiement.
+Renseignez la devise utilisée sur la boutique, le pays du commerçant.
+Personnalisez si vous le souhaitez le texte du bouton d'envoi sur le serveur de la banque.
+Cochez ou non la case de redirection automatique sur le serveur bancaire. Le cas échéant personnalisez le texte de redirection.
+Pour enregistrer des logs (erreurs, retour de la banque), renseignez le chemin absolu et le nom d'un fichier texte. Le dossier doit exister et être accessible en écriture. Exemple : /home/mon_site/www/wp-content/uploads/wc-logs/log-monetico.txt.
+En phase de test, vous pouvez cocher l'affichage du débogage pour visualiser les données envoyées à la banque et autres paramètres utiles.
+
+N'oubliez pas d'enregistrer les modifications.
+
+Consultez notre tutorial vidéo de paramétrage de la passerelle de paiement Monetico Paiement sur cette adresse https://youtu.be/qMe5xGY5u2s
+
+URL de l'extension :
+
+http://www.absoluteweb.net/prestations/wordpress-woocommerce-extensions-traductions/woocommerce-monetico/
+
+Les filtres
+-----------
+
+Vous disposez de divers filtres pour modifier dynamiquement textes, variables ou URL :
+monetico_change_cle : pour modifier la clé sécurisée
+monetico_change_tpe : pour modifier le numéro de TPE
+monetico_change_code_societe : pour modifier le code société
+monetico_change_bank_msg : pour modifier le message indiquant de cliquer sur le bouton pour ce rendre sur le serveur de la banque
+monetico_change_bouton : pour traduire ou modifier le texte du bouton de connexion à la banque
+monetico_change_msg_redirection : pour traduire ou modifier le texte de redirection vers la banque
+monetico_change_url_ok : pour modifier l'URL de retour OK
+monetico_change_url_ko : pour modifier l'URL de retour NOT OK
+monetico_change_liste_statuts_ok : pour modifier la liste des statuts d'un paiement réussi
+monetico_change_devise : pour modifier la devise envoyée à Monetico
+monetico_change_langue : pour modifier la langue envoyée à Monetico
+
+Exemples :
+
+Outrepasser les paramètres dans le processus aller.
+
+add_action('before_woocommerce_pay', 'abw_change_monetico');
+function abw_change_monetico() {
+	add_filter('monetico_change_url_ko', 'new_ko'); // Modification de l'URL NOT OK
+	add_filter('monetico_change_cle', 'new_cle'); // Modification de la clé sécurisée
+	add_filter('monetico_change_bouton', 'new_bouton'); // Modification du texte du bouton de connexion
+	add_filter('monetico_change_devise', 'new_devise'); // Modification de la devise de paiement
+}
+function new_bouton($bouton) {
+	return 'Mon texte de bouton';	
+}
+function new_cle($cle) {
+	return '12345678901234567890123456789012345678P0';	
+}
+function new_ko($url) {
+  return "http://www.mon-site.fr/mon-url-not-ok/";
+}
+function new_devise($devise) {
+  return "USD";
+}
+
+Outrepasser les paramètres dans le processus retour.
+
+add_action( 'woocommerce_api_wc_gateway_monetico', 'abw_change_tpe_cle', 9);
+function abw_change_tpe_cle(){
+	if (isset($_GET['wc-api']) && $_GET['wc-api'] == 'WC_Gateway_Monetico' && isset($_POST['TPE']) && $_POST['TPE'] == '0123456'):
+		add_filter('monetico_change_tpe', 'abw_new_tpe_retour');
+		add_filter('monetico_change_cle', 'abw_new_cle_retour');
+	endif;
+}
+function abw_new_tpe_retour() {
+	return '0123456';
+}
+function abw_new_cle_retour() {
+	return '0123456789ABCDFE';
+}
+
+Ajouter un statut de commande considéré comme un paiement réussi
+
+add_filter( 'monetico_change_liste_statuts_ok', 'abw_change_liste_statuts_ok' );
+function abw_change_liste_statuts_ok($statuts) {
+	$statuts[] = 'partially-paid'; // Ajout du statut de l'extension WooCommerce Deposit
+	return $statuts;
+}
+
+Activation de la licence
+------------------------
+
+Vous bénéficiez d'un an de support et de mises à jour lors de l'achat de votre passerelle. Pour activer votre licence et être automatiquement informé des mises à jour, vous devez activer votre licence.
+Dans votre tableau de bord WordPress, rendez-vous dans Réglages > Licence Passerelle Monetico.
+Renseignez votre clé de licence ainsi que votre email de commande. Ces éléments vous ont été envoyés par email lors de la validation de votre achat. Vous pouvez également les retrouver sur votre compte ABSOLUTE Web à l'adresse http://www.absoluteweb.net/mon-compte/.
+Pensez à cliquer sur "Enregistrer les changements" pour que votre licence s'active.
+Si vous devez déplacer votre site, vous devrez désactiver la licence sur le site actuel pour pouvoir la réactiver sur un autre site. Passez par l'onglet "Désactivation de la Licence" pour cela.
+
+Le fonctionnement de la licence en vidéo :
+http://www.youtube.com/watch?v=9a9IAUimOmM
