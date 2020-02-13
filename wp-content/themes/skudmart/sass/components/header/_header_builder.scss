@@ -240,9 +240,11 @@
 
 img.lahb-logo {
   z-index: 2;
-  width: 170px;
+  width: 205px;
 }
-
+span {
+    font-family: "din_condensedbold",sans-serif;
+}
 .lahb-logo.logo--transparency{
   display: none;
 }
@@ -427,7 +429,9 @@ img.lahb-logo {
     display: block;
   }
 }
-
+.hcolorf {
+    font-family: "din_condensedbold",sans-serif;
+}
 .lahb-nav-wrap .sf-arrows > li > .sf-with-ul:after {
   display: none;
 }

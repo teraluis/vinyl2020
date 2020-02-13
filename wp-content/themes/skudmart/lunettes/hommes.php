@@ -6,129 +6,55 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
 get_header(); ?>
+<style>
+#main #content-wrap {
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+#main {
+    background-color: black;
+}
 
+</style>
     <?php do_action( 'skudmart/action/before_content_wrap' ); ?>
 
     <div id="content-wrap" class="container">
-
+               <div class="entete_collection">
+                   <div class="row">
+                       <div class="col description_collection">
+                           <div class="titre_collection"><?php the_title(); ?></div>
+                           <div class="breadcump-lunettes">
+                               <a href="<?php get_home_url(); ?>">ACCUEIL</a> >
+                               <?php
+                               $ancestors = get_post_ancestors($post);
+                                foreach ($ancestors as $crumb) {
+                                echo '<a href="'.get_permalink($crumb).'">'.get_the_title($crumb).'</a> > ';
+                                }
+                                echo get_the_title();
+                               ?>
+                           </div>
+                           <div class="descriptif-collection">
+                               contenu
+                               <?php 
+                               the_field("description");
+                               ?>
+                           </div>
+                       </div>
+                       <div class="col ">
+                           <div class="clodos">
+                               
+                           </div>
+                       </div>
+                   </div>
+                </div>
         <?php do_action( 'skudmart/action/before_primary' ); ?>
-
+ 
         <div id="primary" class="content-area">
 
             <?php do_action( 'skudmart/action/before_content' ); ?>
 
             <div id="content" class="site-content">
-
-                <?php do_action( 'skudmart/action/before_content_inner' ); ?>
-
-                <?php
-                // Check if posts exist
-                if ( have_posts() ) :
-
-                    // Elementor `archive` location
-                    if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'archive' ) ) {
-
-
-                        // Add Support For WPJM Archive Pages
-                        if( is_post_type_archive('job_listing') || ( is_tax() && is_tax(get_object_taxonomies( 'job_listing' )) ) ) {
-                            $pagination = '';
-                            $pagination = 'show_pagination="true"';
-                            $listing_layout = 'grid_1';
-                            $shortcode = '[jobs show_tags="true" show_more="false" '.$pagination.' orderby="featured" order="DESC" listing_layout="'.$listing_layout.'"]';
-                            echo do_shortcode(  $shortcode );
-                        }
-                        elseif( is_post_type_archive('la_portfolio') || ( is_tax() && is_tax(get_object_taxonomies( 'la_portfolio' )) ) ){
-
-                        }
-                        else{
-
-                            $pagination_extra_attr = '';
-                            $pagination_extra_cssclass = '';
-
-                            $blog_thumbnail_height_mode = skudmart_get_option('blog_thumbnail_height_mode', 'original');
-                            $blog_design = skudmart_get_option('blog_design');
-                            $blog_pagination_type = skudmart_get_option('blog_pagination_type', 'pagination');
-                            $is_grid_layout = false;
-                            $data_js_component = array();
-                            $blog_wrap_classes = array('entries', 'la-loop', 'lastudio-posts', 'blog__entries');
-                            $blog_wrap_classes[] = 'preset-' . $blog_design;
-
-                            if($blog_thumbnail_height_mode != 'original'){
-                                $blog_wrap_classes[] = 'active-object-fit';
-                            }
-
-                            if(false !== strpos($blog_design, 'grid')){
-                                $is_grid_layout = true;
-                                $blog_wrap_classes[] = 'lastudio-posts--grid';
-                            }
-                            else{
-                                $blog_wrap_classes[] = 'lastudio-posts--list';
-                            }
-                            if($is_grid_layout){
-                                $blog_wrap_classes[] = 'grid-items';
-                                $blog_wrap_classes[] = skudmart_get_responsive_column_classes('blog_post_column', array(
-                                    'mobile' => 1,
-                                    'tablet' => 1
-                                ));
-                                if(skudmart_string_to_bool(skudmart_get_option('blog_masonry'))){
-                                    $blog_wrap_classes[] = 'la-isotope-container';
-                                    $data_js_component[] = 'DefaultMasonry';
-                                }
-                            }
-                            if($blog_pagination_type == 'infinite_scroll'){
-                                $blog_wrap_classes[] = 'la-infinite-container';
-                                $data_js_component[] = 'InfiniteScroll';
-                                $pagination_extra_cssclass .= ' la-ajax-pagination active-loadmore active-infinite-loadmore';
-                                $pagination_extra_attr = 'data-parent-container="#content" data-container="#content #blog-entries" data-item-selector=".lastudio-posts__item" data-ajax_request_id="main-blog" data-infinite-flag="#content > .infinite-flag"';
-                            }
-                            elseif($blog_pagination_type == 'load_more'){
-                                $blog_wrap_classes[] = 'la-infinite-container infinite-show-loadmore';
-                                $pagination_extra_cssclass .= ' la-ajax-pagination active-loadmore';
-                                $pagination_extra_attr = 'data-parent-container="#content" data-container="#content #blog-entries" data-item-selector=".lastudio-posts__item" data-ajax_request_id="main-blog"';
-                            }
-                            if(!empty($data_js_component)){
-                                $blog_wrap_classes[] = 'js-el';
-                            }
-
-                            ?>
-                            <div id="blog-entries" data-infinite-flag="#content > .infinite-flag" data-pagination="#content > .la-pagination" class="<?php echo skudmart_blog_wrap_classes(join(' ', $blog_wrap_classes)); ?>" <?php if(!empty($data_js_component)){ echo ' data-la_component="'.esc_attr(json_encode($data_js_component)).'" data-item_selector=".loop__item"'; } ?>>
-
-                                <?php
-                                // Loop through posts
-                                while ( have_posts() ) : the_post(); ?>
-                                    <?php
-                                    // Get post entry content
-                                    get_template_part( 'partials/entry/layout', get_post_type() ); ?>
-
-                                <?php endwhile; ?>
-
-                            </div><!-- #blog-entries -->
-                            <?php
-
-                            // Display post pagination
-                            skudmart_the_pagination(array(
-                                'pagi_data' => array(
-                                    'class' => $pagination_extra_cssclass,
-                                    'attr'  => $pagination_extra_attr,
-                                )
-                            ));
-
-                        }
-
-                    }
-                    ?>
-
-                <?php
-                // No posts found
-                else : ?>
-
-                    <?php
-                    // Display no post found notice
-                    get_template_part( 'partials/none' ); ?>
-
-                <?php endif; ?>
-
-                <?php do_action( 'skudmart/action/after_content_inner' ); ?>
+              
 
             </div><!-- #content -->
 
@@ -143,4 +69,82 @@ get_header(); ?>
     <?php do_action( 'skudmart/action/after_content_wrap' ); ?>
 
 <?php get_footer();?>
-
+<script>
+  
+    jQuery( document ).ready(function() {
+    let monture = `{"couleur1":"","couleur2":"","couleur3":"","couleur4":"","couleur5":"","couleur6":"","couleur7":"","couleur8":"","couleur9":"","couleur10":"","couleur11":"","couleur12":"","couleur13":"","couleur14":"","couleur15":"","couleur16":"","cible":"F","matiere":"","forme":"","nom":"","usage":""}`;
+    let data = "json="+monture;
+        jQuery.ajax({
+           url : 'http://localhost/webservice_mazette/symfony/web/app_dev.php/vfmontures/', 
+           type : 'GET',
+           dataType : 'json',
+           data: data,
+           success : function(obj, statut){
+               jQuery(`<div class="row justify-content-around" id="affichageMontures"  style="background-color:white"></div>`).appendTo("#content");
+               let modelTemp="";
+               for(const o in obj){
+                   let obj_monture = obj[o];
+                   let nomMonture =obj_monture.nom;
+                   let sortie = new Date(obj_monture.sortieCollection.timestamp * 1000);
+                   let sortieJour = sortie.getDay();
+                   let sortieMois= sortie.getMonth();
+                   let sortieA= sortie.getFullYear();
+                   let item=obj_monture.itemcode;
+                   let cible = obj_monture.cible;
+                   let matiere = obj_monture.matiere;
+                   let forme = obj_monture.forme;
+                   let usage = obj_monture.usage;
+                   let taille = obj_monture.taille;
+                   let collection = obj_monture.collection;
+                   let couleur = obj_monture.couleur;
+                   
+                   if(modelTemp!==nomMonture){                      
+                       jQuery(`<div class="col-xs-12 col-md-6 col-lg-6  slide-title" id="`+nomMonture+`Col"  aria-describedby="`+nomMonture.toUpperCase()+`"  ></div>`).appendTo("#affichageMontures")
+                       jQuery(`<div id="`+nomMonture+`Model" class="frameModel" color="`+couleur.toLowerCase()+`" data-color="`+couleur.toLowerCase()+`"></div>`).appendTo("#"+nomMonture+"Col");
+                    jQuery(`<div id="`+item+`" color="`+couleur.toLowerCase()+`" data-color="`+couleur.toLowerCase()+`">
+                     <img src="https://revendeurs.angeleyes-eyewear.com/EspaceRevendeur/pic/`+item+`_1.jpg" width="500px" style="margin:auto">
+                    </div>`).appendTo("#"+nomMonture+"Model"); 
+                    
+                   }else {
+                    //let frameModel= jQuery("."+nomMonture).last();
+                    jQuery(`<div id="`+item+`" color="`+couleur.toLowerCase()+`" data-color="`+couleur.toLowerCase()+`">
+                     <img src="https://revendeurs.angeleyes-eyewear.com/EspaceRevendeur/pic/`+item+`_1.jpg" width="500px" style="margin:auto">
+                    </div>`).appendTo("#"+nomMonture+"Model");                       
+                   }
+                   modelTemp=nomMonture;
+               }
+           },
+           error : function(resultat, statut, erreur){
+               console.log(resultat+" "+statut+" "+erreur);
+           },
+           complete : function(resultat, statut){              
+                jQuery(document).ready(function(){
+                  jQuery('.frameModel').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 500,
+                    fade: true,
+                    cssEase: 'linear',
+                    prevArrow: '',
+                    nextArrow: '',
+                    customPaging: function(slider,index) {
+                      let div = slider.$slides[index];                   
+		      var color = div.getAttribute('color');
+		      color = color.toLowerCase();                        
+                      return '<div class="custom-dot dot-'+color+'"></div>';
+                    }                    
+                  });
+                });
+                jQuery('.slide-title').each(function () {
+                    var slide = jQuery(this);    
+                    var slideChild= slide.first();
+                    var nbColoris = slideChild.find(".slick-track").children().length;
+                    if (slide.attr('aria-describedby') !== '') { // ignore extra/cloned slides
+                        jQuery(`<div class="monturesDescription">`+slide.attr('aria-describedby')+`</div>`).appendTo(slide);
+                        jQuery(`<div class="monturesNbColoris"> Disponible en `+nbColoris+` colori(s)</div>`).appendTo(slide);
+                    }
+                });                
+           }
+        });
+    });        
+</script>

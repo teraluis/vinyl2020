@@ -33,5 +33,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div class="la-overlay-global"></div>
 
 <?php wp_footer(); ?>
+
 </body>
 </html>

@@ -165,3 +165,74 @@
 *------------------------------------*/
 @import "base/demo";
 @import "components/responsive";
+.dot-or {
+background : #dabc6b;
+}
+.dot-gris {
+background : #999999;
+}
+.dot-bleu {
+background : #005aff;
+}
+.dot-brun {
+background : #481600;
+}
+.dot-noir {
+background : #000;
+}
+.dot-blanc {
+background : #fff;
+}
+.dot-orange {
+background : #fc8903;
+}
+.dot-argent {
+background : #b9b5ab;
+}
+.dot-vert {
+background : #35b973;
+}
+.dot-rouge {
+background : #ff0000;
+}
+.dot-creme {
+background : #e5cfc7;
+}
+.dot-rose {
+background : #e55783;
+}
+.dot-crystal {
+background : #e5e8ec;
+}
+.dot-violet {
+background : #7e33b4;
+}
+.dot-blue {
+background : #005aff;
+}
+.dot-jaune {
+background : #fde22f;
+}
+.dot-marron {
+background : #844d34;
+}
+.custom-dot {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.58);
+    border: solid white 2px;    
+}
+.custom-dot:hover {
+    box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.10);
+}
+.monturesDescription {
+    margin:auto;text-align:center;
+    text-transform:uppercase;
+    font-size:2em;
+}
+.monturesNbColoris {
+    margin:auto;text-align:center;
+    text-transform:capitalize;
+    font-size:1.5em;
+}

@@ -1,0 +1,50 @@
+.entete_collection {
+    background-color: black;
+
+}
+.entete_collection > .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;    
+}
+.row > .col {
+    flex:auto;
+}
+.row > .col:first-of-type {
+    max-width: 50%;
+    padding:100px 0px;
+}
+.description_collection {
+    color :white;
+}
+.titre_collection {
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-family: "din_condensedbold",sans-serif;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: 6px;
+}
+.breadcump-lunettes {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "din_condensedbold",sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.descriptif-collection {
+    text-align: justify;
+}
+.clodos {
+    background-color: gray;
+    min-height: 450px;
+    min-width: 100%;
+    background-image: url('../images/clodos.png');
+    background-size: cover;
+    background-position: center center;
+}

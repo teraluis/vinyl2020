@@ -18,7 +18,47 @@
  *
  * @package Skudmart WordPress theme
  */
+register_nav_menu( 'primary', 'Primary Menu' );
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+function special_nav_class($classes, $item){
+if(is_single() && $item->title == 'Blog'){
+ 
+$classes[] = 'current_page_item';
+}
+return $classes;
+}
+class description_walker extends Walker_Nav_Menu
+{
+      function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0)
+      {
+           global $wp_query;
+           $indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
 
+           $class_names = $value = '';
+
+           $classes = empty( $item->classes ) ? array() : (array) $item->classes;
+
+           $class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item ) );
+           $class_names = ' class="'. esc_attr( $class_names ) . '"';
+
+           $output .= $indent . '<li id="menu-item-'. $item->ID . '"' . $value . $class_names .'>';
+
+           $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
+           $attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
+           $attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
+           $attributes .= ! empty( $item->url )        ? ' href="'   . esc_attr( $item->url        ) .'"' : '';
+           $attributes .= ! empty( $item->description )        ? ' data-description="'   . esc_attr( $item->description        ) .'"' : '';
+
+            $item_output = $args->before;
+            $item_output .= '<a'. $attributes .'>';
+            $item_output .= $args->link_before .apply_filters( 'the_title', $item->title, $item->ID );
+            $item_output .= $args->link_after;
+            $item_output .= '</a>';
+            $item_output .= $args->after;
+
+            $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
+            }
+}
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }
@@ -411,7 +451,8 @@ if(!class_exists('Skudmart_Theme_Class')){
 
             // Load font icon style
             wp_enqueue_style( 'skudmart-font-lastudioicon', get_theme_file_uri ('/assets/css/lastudioicon'.$ext.'.css' ), false, $theme_version );
-
+            wp_register_style('slick', "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css", array(), '1.0', 'all');
+            wp_register_style('slickTheme', get_theme_file_uri ('/assets/css/slick-theme.css' ), array(), '1.0', 'all');
             if(!class_exists('LASF')) {
                 wp_enqueue_style( 'skudmart-fonts', $this->enqueue_google_fonts_url() , array(), null );
             }
@@ -465,7 +506,7 @@ if(!class_exists('Skudmart_Theme_Class')){
             $localize_array = $this->localize_array();
 
             wp_register_script( 'skudmart-modernizr-custom', get_theme_file_uri('/assets/js/lib/modernizr-custom'.$ext.'.js') , array('jquery'), $theme_version, true);
-
+            wp_register_script( 'slickjs', "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" , array('slick'), $theme_version, true);
             wp_register_script( 'skudmart-sticky', get_theme_file_uri('/assets/js/lib/jquery.sticky'.$ext.'.js') , array('jquery'), $theme_version, true);
 
             $dependencies = array('jquery', 'skudmart-modernizr-custom', 'skudmart-sticky');

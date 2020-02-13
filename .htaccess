@@ -11,9 +11,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /newvinyl/index.php [L]
 </IfModule>
-php_value memory_limit 256M
-php_value max_execution_time 120
-php_value max_input_vars 5000
-php_value upload_max_filesize 32M
-php_value post_max_size 32M
+
 # END WordPress
