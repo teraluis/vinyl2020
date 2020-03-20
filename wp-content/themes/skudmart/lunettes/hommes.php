@@ -12,14 +12,14 @@ get_header(); ?>
     padding-bottom: 50px;
 }
 #main {
-    background-color: black;
+    background-color: white;
 }
 
 </style>
     <?php do_action( 'skudmart/action/before_content_wrap' ); ?>
-
-    <div id="content-wrap" class="container">
-               <div class="entete_collection">
+<div class="container-fluid" style="background-color:black">
+<div id="content-wrap" class="container" >
+               <div class="entete_collection" >
                    <div class="row">
                        <div class="col description_collection">
                            <div class="titre_collection"><?php the_title(); ?></div>
@@ -48,24 +48,28 @@ get_header(); ?>
                    </div>
                 </div>
         <?php do_action( 'skudmart/action/before_primary' ); ?>
- 
+        
+
+
+        <?php do_action( 'skudmart/action/after_primary' ); ?>
+
+    </div><!-- #content-wrap -->
+    </div>
+<div class="container">
         <div id="primary" class="content-area">
 
             <?php do_action( 'skudmart/action/before_content' ); ?>
 
             <div id="content" class="site-content">
-              
-
+                <div class="filtresContent">
+                    <?php include('filtres.php'); ?>
+                </div>
             </div><!-- #content -->
 
             <?php do_action( 'skudmart/action/after_content' ); ?>
 
-        </div><!-- #primary -->
-
-        <?php do_action( 'skudmart/action/after_primary' ); ?>
-
-    </div><!-- #content-wrap -->
-
+        </div><!-- #primary -->    
+</div>
     <?php do_action( 'skudmart/action/after_content_wrap' ); ?>
 
 <?php get_footer();?>
